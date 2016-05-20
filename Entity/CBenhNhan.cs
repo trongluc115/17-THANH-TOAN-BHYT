@@ -8,7 +8,7 @@ namespace Entity
     {
         #region Khai Bao Bien
         private string mabn;
-        private string hoten="";
+        private string hoten;
         private int namsinh;
         private int gioitinh;
         private string diachi;
