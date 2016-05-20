@@ -1,0 +1,7 @@
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\bin\Debug\QLYeuCau.exe
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\bin\Debug\QLYeuCau.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\obj\Debug\QLYeuCau.csprojResolveAssemblyReference.cache
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\obj\Debug\QLYeuCau.Properties.Resources.resources
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\obj\Debug\QLYeuCau.csproj.GenerateResource.Cache
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\obj\Debug\QLYeuCau.exe
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\QLYeuCau\obj\Debug\QLYeuCau.pdb

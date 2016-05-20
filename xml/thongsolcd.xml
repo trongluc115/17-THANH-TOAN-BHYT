@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <wpanel>220</wpanel>
+    <hpanel>185</hpanel>
+    <maxpanel>5</maxpanel>
+    <sizechung>8</sizechung>
+    <sizetieude>144</sizetieude>
+    <maxcotngang>216</maxcotngang>
+    <hchung>14</hchung>
+    <htieude>14</htieude>
+    <x>0</x>
+    <y>0</y>
+    <w>1500</w>
+    <h>1000</h>
+    <xnv>0</xnv>
+    <ynv>0</ynv>
+    <wnv>1700</wnv>
+    <hnv>10500</hnv>
+    <zoom>2</zoom>
+    <s>72</s>
+    <s2>10</s2>
+    <s3>48</s3>
+    <s4>72</s4>
+    <delay>1200000</delay>
+    <r1>220</r1>
+    <g1>229</g1>
+    <b1>234</b1>
+    <r2>144</r2>
+    <g2>216</g2>
+    <b2>235</b2>
+    <r3>246</r3>
+    <g3>0</g3>
+    <b3>0</b3>
+    <r4>246</r4>
+    <g4>0</g4>
+    <b4>0</b4>
+  </Row>
+</Import>

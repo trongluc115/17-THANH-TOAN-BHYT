@@ -1,0 +1,22 @@
+select nbhyt.ten tennhom,BHKP.KHOXUAT KHOXUAT,kq.mavp ,dm.ten tenvp, kq.dongia,
+SUM(kq.slngoaitru) SLNGOAITRU,sum(kq.slnoitru) SLNOITRU,
+ kq.dongia*SUM(kq.slngoaitru) THANHTIEN_NGOAITRU,
+ kq.dongia*SUM(kq.slnoitru) THANHTIEN_NOITRU
+from (
+ select ct.makp, ct.idnhombhyt idnhombhyt,ct.mavp mavp,round(ct.dongia,2),dongia,
+ case when b.loaibn=1 then round(ct.soluong,2) else 0 end slngoaitru,
+ case when b.loaibn=0 then round(ct.soluong,2) else 0 end slnoitru
+ from BV115.v_bhytct ct  
+ join BV115.v_bhytll b on b.id=ct.id 
+ join BV115.v_bhytds a on a.id=b.id  
+ where     to_char(b.ngay,'yyyymmdd') between '20150501' and '20150501' 
+ and ct.idnhombhyt in (1,2,3,4,5,6,7,8,9,10,11,12,13,14)  and ct.madoituong=1 
+ ) kq
+ join BV115.BTDKP_BHYT BHKP ON BHKP.MAKP=kq.MAKP  
+ join d_dmbd dm on kq.mavp=dm.id  
+ join d_dmnuoc nc on nc.id=dm.manuoc 
+ join d_dmhang h on dm.mahang=h.id  
+ join d_dmnhom nhomd on dm.manhom=nhomd.id  
+ join v_nhomvp nhomvp on nhomd.nhomvp=nhomvp.ma 
+ inner join BV115.v_nhombhyt nbhyt on nbhyt.id=kq.idnhombhyt 
+ group by nbhyt.ten ,BHKP.KHOXUAT,kq.mavp ,dm.ten , kq.dongia

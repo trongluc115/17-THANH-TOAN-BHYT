@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DuLieu" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DuLieu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_benhvien" type="xs:int" minOccurs="0" />
+                <xs:element name="id_oid" type="xs:long" minOccurs="0" />
+                <xs:element name="mabenhnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:int" minOccurs="0" />
+                <xs:element name="phai" type="xs:int" minOccurs="0" />
+                <xs:element name="id_nghenghiep" type="xs:int" minOccurs="0" />
+                <xs:element name="id_dantoc" type="xs:int" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="noilamviec" type="xs:string" minOccurs="0" />
+                <xs:element name="masochuyentuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="thebhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="denngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="id_dkkcb" type="xs:int" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="giovao" type="xs:string" minOccurs="0" />
+                <xs:element name="giora" type="xs:string" minOccurs="0" />
+                <xs:element name="id_khoaphong" type="xs:int" minOccurs="0" />
+                <xs:element name="id_tuyentruoc" type="xs:int" minOccurs="0" />
+                <xs:element name="dauhieulamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="ketquacanlamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="phuongphap" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd10" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="id_hinhthucchuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_tinhtrangchuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_lydochuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_ketquadieutri" type="xs:int" minOccurs="0" />
+                <xs:element name="id_doituong" type="xs:int" minOccurs="0" />
+                <xs:element name="ngaychuyen" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="giochuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="id_benhvienchuyenden" type="xs:int" minOccurs="0" />
+                <xs:element name="phuongtienchuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="hotennguoidua" type="xs:string" minOccurs="0" />
+                <xs:element name="huongdieutri" type="xs:string" minOccurs="0" />
+		<xs:element name="public_tbd_hosochuyentuyen.mabenhnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaichuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="maicd10_ra" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan_ra" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sothutu" type="xs:string" minOccurs="0" />
+                <xs:element name="saisotchuyenmon" type="xs:int" minOccurs="0" />
+                <xs:element name="khacbietchandoan" type="xs:int" minOccurs="0" />
+                <xs:element name="id_chuyenchuyenmonkythuat" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DuLieu>
+    <id_benhvien>586</id_benhvien>
+    <id_oid>114197</id_oid>
+    <mabenhnhan>123/15</mabenhnhan>
+    <hoten>Nguyễn Thanh Nam</hoten>
+    <namsinh>2000</namsinh>
+    <phai>1</phai>
+    <id_nghenghiep>3</id_nghenghiep>
+    <id_dantoc>1</id_dantoc>
+    <diachi>123 Cao Văn Thanh</diachi>
+    <noilamviec>Trường Võ Trường Toản</noilamviec>
+    <masochuyentuyen>123</masochuyentuyen>
+    <thebhyt>HS1234567890</thebhyt>
+    <tungay>2015-01-01T00:00:00+07:00</tungay>
+    <denngay>2015-12-31T00:00:00+07:00</denngay>
+    <id_dkkcb>602</id_dkkcb>
+    <ngayvao>2015-07-02T00:00:00+07:00</ngayvao>
+    <ngayra>2015-07-02T00:00:00+07:00</ngayra>
+    <giovao>20:02</giovao>
+    <giora>20:02</giora>
+    <id_khoaphong>15</id_khoaphong>
+    <id_tuyentruoc>586</id_tuyentruoc>
+    <dauhieulamsang>Dấu hiệu lâm sàng</dauhieulamsang>
+    <ketquacanlamsang>Kết quả xét nghiệm</ketquacanlamsang>
+    <phuongphap>Phương pháp thủ thuật</phuongphap>
+    <maicd10>A00.9</maicd10>
+    <chandoan>Bệnh tả, không xác định</chandoan>
+    <id_hinhthucchuyen>4</id_hinhthucchuyen>
+    <id_tinhtrangchuyen>2</id_tinhtrangchuyen>
+    <id_lydochuyen>1</id_lydochuyen>
+    <id_ketquadieutri>3</id_ketquadieutri>
+    <id_doituong>1</id_doituong>
+    <ngaychuyen>2015-07-02T00:00:00+07:00</ngaychuyen>
+    <giochuyen>22:00</giochuyen>
+    <id_benhvienchuyenden>622</id_benhvienchuyenden>
+    <phuongtienchuyen>Phương tiện vận chuyển</phuongtienchuyen>
+    <hotennguoidua>Ho Tên, Chức Danh</hotennguoidua>
+    <huongdieutri>Hương điều trị</huongdieutri>
+    <id_loaichuyen>1</id_loaichuyen>
+    <maicd10_ra />
+    <chandoan_ra />
+    <ghichu />
+    <sothutu>1</sothutu>
+    <saisotchuyenmon>0</saisotchuyenmon>
+    <khacbietchandoan>0</khacbietchandoan>
+    <id_chuyenchuyenmonkythuat>2</id_chuyenchuyenmonkythuat>
+  </DuLieu>
+  <DuLieu>
+    <id_benhvien>586</id_benhvien>
+    <id_oid>114199</id_oid>
+    <mabenhnhan>1234/15</mabenhnhan>
+    <hoten>Trần Văn Nam</hoten>
+    <namsinh>2001</namsinh>
+    <phai>1</phai>
+    <id_nghenghiep>3</id_nghenghiep>
+    <id_dantoc>1</id_dantoc>
+    <diachi>321 Lý Thái Tổ</diachi>
+    <noilamviec>Nơi Làm Việc</noilamviec>
+    <masochuyentuyen>1234</masochuyentuyen>
+    <thebhyt>HS128776161616161616</thebhyt>
+    <tungay>2015-07-02T00:00:00+07:00</tungay>
+    <denngay>2015-07-02T00:00:00+07:00</denngay>
+    <id_dkkcb>612</id_dkkcb>
+    <ngayvao>2015-07-02T00:00:00+07:00</ngayvao>
+    <ngayra>2015-07-02T00:00:00+07:00</ngayra>
+    <giovao>20:06</giovao>
+    <giora>20:06</giora>
+    <id_khoaphong>16</id_khoaphong>
+    <id_tuyentruoc>577</id_tuyentruoc>
+    <dauhieulamsang>Dấu hiệu lâm sàng</dauhieulamsang>
+    <ketquacanlamsang>Cận lân sàng
+thủ thuật</ketquacanlamsang>
+    <phuongphap>Thu thuật</phuongphap>
+    <maicd10>J01</maicd10>
+    <chandoan>Viêm xoang cấp</chandoan>
+    <id_hinhthucchuyen>1</id_hinhthucchuyen>
+    <id_tinhtrangchuyen>1</id_tinhtrangchuyen>
+    <id_lydochuyen>2</id_lydochuyen>
+    <id_ketquadieutri>1</id_ketquadieutri>
+    <id_doituong>1</id_doituong>
+    <ngaychuyen>2015-07-02T00:00:00+07:00</ngaychuyen>
+    <giochuyen>22:22</giochuyen>
+    <id_benhvienchuyenden>706</id_benhvienchuyenden>
+    <phuongtienchuyen />
+    <hotennguoidua />
+    <huongdieutri />
+    <id_loaichuyen>2</id_loaichuyen>
+    <maicd10_ra>J02</maicd10_ra>
+    <chandoan_ra>Viêm họng cấp</chandoan_ra>
+    <ghichu>Sai sót chuyên môn</ghichu>
+    <sothutu>2</sothutu>
+    <saisotchuyenmon>1</saisotchuyenmon>
+    <khacbietchandoan>0</khacbietchandoan>
+    <id_chuyenchuyenmonkythuat>2</id_chuyenchuyenmonkythuat>
+  </DuLieu>
+</NewDataSet>

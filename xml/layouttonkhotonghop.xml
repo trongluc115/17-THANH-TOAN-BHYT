@@ -1,0 +1,672 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="GroupFooterShowMode">VisibleIfExpanded</property>
+  <property name="NewItemRowText" />
+  <property name="GroupPanelText" />
+  <property name="PreviewLineCount">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="LevelIndent">-1</property>
+  <property name="VertScrollTipFieldName" />
+  <property name="ChildGridLevelName" />
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">NoBorder</property>
+  <property name="PreviewFieldName" />
+  <property name="BestFitMaxRowCount">-1</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="HorzScrollStep">3</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="ShowButtonMode">ShowForFocusedCell</property>
+  <property name="Columns" iskey="true" value="14">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">60</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_STT</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="AllowFocus">false</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowIncrementalSearch">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="Caption">STT</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">120</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TenNguon</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TENNGUON</property>
+      <property name="Caption">Nguồn</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">56</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_MaSo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">MA</property>
+      <property name="Caption">Mã BD</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">225</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TenBD</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TENBD</property>
+      <property name="Caption">Tên Biệt Dược</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">217</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TenHC</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TENHC</property>
+      <property name="Caption">Hoạt chất</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_Dang</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">DANG</property>
+      <property name="Caption">ĐVT</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TonDau</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TONDAU</property>
+      <property name="Caption">Tồn Đầu</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_SLNhap</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">SLNHAP</property>
+      <property name="Caption">SL Nhập</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_SLXuat</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">SLXUAT</property>
+      <property name="Caption">SL Xuất</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TonCuoi</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TONCUOI</property>
+      <property name="Caption">Tồn Cuối</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_TongTon</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TONGTON</property>
+      <property name="Caption">Tổng tồn</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_ToiThieu</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">TOITHIEU</property>
+      <property name="Caption">Tồn Tối Thiểu</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="UnboundType">Decimal</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName">txtSoLuong</property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_SLYeuCau</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">SLYEUCAU</property>
+      <property name="Caption">SL Treo</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="VAlignment">Center</property>
+          <property name="HAlignment">Center</property>
+          <property name="WordWrap">Wrap</property>
+        </property>
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Contains</property>
+      </property>
+      <property name="Name">grvTonKho_MaBD</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMerge">False</property>
+        <property name="ReadOnly">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+      </property>
+      <property name="FieldName">MABD</property>
+      <property name="Caption">mabd</property>
+    </property>
+  </property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="CustomizationFormBounds">@1,X=0@1,Y=0@1,Width=0@1,Height=0</property>
+  <property name="OptionsCustomization" isnull="true" iskey="true">
+    <property name="AllowGroup">false</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="EnableFooterMenu">false</property>
+    <property name="EnableGroupPanelMenu">false</property>
+    <property name="ShowGroupSortSummaryItems">false</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowIndicator">false</property>
+    <property name="ShowFooter">true</property>
+    <property name="ShowGroupPanel">false</property>
+    <property name="ShowFilterPanelMode">Never</property>
+    <property name="EnableAppearanceOddRow">true</property>
+    <property name="EnableAppearanceEvenRow">true</property>
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="RowAutoHeight">true</property>
+  </property>
+  <property name="DetailHeight">350</property>
+  <property name="Appearance" isnull="true" iskey="true">
+    <property name="GroupFooter" iskey="true" value="GroupFooter">
+      <property name="BackColor">193, 216, 247</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">193, 216, 247</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="FocusedRow" iskey="true" value="FocusedRow">
+      <property name="BackColor">PaleGreen</property>
+      <property name="ForeColor">Blue</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="Row" iskey="true" value="Row">
+      <property name="BackColor">White</property>
+      <property name="ForeColor">Blue</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="FocusedCell" iskey="true" value="FocusedCell">
+      <property name="BackColor">White</property>
+      <property name="ForeColor">Black</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="Preview" iskey="true" value="Preview">
+      <property name="BackColor">249, 252, 255</property>
+      <property name="ForeColor">88, 129, 185</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="GroupButton" iskey="true" value="GroupButton">
+      <property name="BackColor">193, 216, 247</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">193, 216, 247</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="FooterPanel" iskey="true" value="FooterPanel">
+      <property name="Font">Tahoma, 10pt, style=Bold</property>
+      <property name="BackColor2">132, 171, 228</property>
+      <property name="BackColor">221, 236, 254</property>
+      <property name="ForeColor">Red</property>
+      <property name="BorderColor">221, 236, 254</property>
+      <property name="GradientMode">Vertical</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseFont">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="ColumnFilterButton" iskey="true" value="ColumnFilterButton">
+      <property name="BackColor2">132, 171, 228</property>
+      <property name="BackColor">221, 236, 254</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">221, 236, 254</property>
+      <property name="GradientMode">Vertical</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="FixedLine" iskey="true" value="FixedLine">
+      <property name="BackColor">59, 97, 156</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+      </property>
+    </property>
+    <property name="ColumnFilterButtonActive" iskey="true" value="ColumnFilterButtonActive">
+      <property name="BackColor2">154, 190, 243</property>
+      <property name="BackColor">247, 251, 255</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">247, 251, 255</property>
+      <property name="GradientMode">Vertical</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="OddRow" iskey="true" value="OddRow">
+      <property name="BackColor">White</property>
+      <property name="ForeColor">Black</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="EvenRow" iskey="true" value="EvenRow">
+      <property name="BackColor">231, 242, 254</property>
+      <property name="ForeColor">Black</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="FilterCloseButton" iskey="true" value="FilterCloseButton">
+      <property name="BackColor2">132, 171, 228</property>
+      <property name="BackColor">221, 236, 254</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">221, 236, 254</property>
+      <property name="GradientMode">Vertical</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="GroupRow" iskey="true" value="GroupRow">
+      <property name="Font">Tahoma, 8pt, style=Bold</property>
+      <property name="BackColor">193, 216, 247</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">193, 216, 247</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseFont">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="HorzLine" iskey="true" value="HorzLine">
+      <property name="BackColor">99, 127, 196</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+      </property>
+    </property>
+    <property name="RowSeparator" iskey="true" value="RowSeparator">
+      <property name="BackColor">White</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+      </property>
+    </property>
+    <property name="Empty" iskey="true" value="Empty">
+      <property name="BackColor">White</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+      </property>
+    </property>
+    <property name="VertLine" iskey="true" value="VertLine">
+      <property name="BackColor">99, 127, 196</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+      </property>
+    </property>
+    <property name="GroupPanel" iskey="true" value="GroupPanel">
+      <property name="BackColor">62, 109, 185</property>
+      <property name="ForeColor">221, 236, 254</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="FilterPanel" iskey="true" value="FilterPanel">
+      <property name="BackColor">62, 109, 185</property>
+      <property name="ForeColor">White</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="HideSelectionRow" iskey="true" value="HideSelectionRow">
+      <property name="BackColor">106, 153, 228</property>
+      <property name="ForeColor">208, 224, 251</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+    <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+      <property name="BackColor2">132, 171, 228</property>
+      <property name="BackColor">221, 236, 254</property>
+      <property name="ForeColor">Black</property>
+      <property name="BorderColor">221, 236, 254</property>
+      <property name="GradientMode">Vertical</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+        <property name="UseBorderColor">true</property>
+      </property>
+    </property>
+    <property name="SelectedRow" iskey="true" value="SelectedRow">
+      <property name="BackColor">DarkSeaGreen</property>
+      <property name="ForeColor">White</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseBackColor">true</property>
+        <property name="UseForeColor">true</property>
+      </property>
+    </property>
+  </property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowAddRows">False</property>
+    <property name="AllowDeleteRows">False</property>
+    <property name="Editable">false</property>
+    <property name="AutoExpandAllGroups">true</property>
+  </property>
+  <property name="Name">grvTonKho</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="RowHeight">20</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="FixedLineWidth">2</property>
+  <property name="ColumnPanelRowHeight">35</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ActiveFilterString" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummary" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Tag" isnull="true" />
+      <property name="DisplayFormat">(Tổng: {0:n0})</property>
+      <property name="FieldName">mabd</property>
+      <property name="SummaryType">Count</property>
+      <property name="ShowInGroupColumnFooterName" />
+    </property>
+  </property>
+  <property name="GroupSummarySortInfoState" />
+</XtraSerializer>

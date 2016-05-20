@@ -1,0 +1,2273 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="thongtinchung" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="thongtinchung">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="soluong" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="NHOM" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPHONGBV" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENGIUONGBV" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="STTPHONG" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTGIUONG" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <thongtinchung>
+    <stt>1</stt>
+    <noidung>Vào viện</noidung>
+    <soluong>3</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>2</stt>
+    <noidung>Ra viện</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>3</stt>
+    <noidung>Chuyển viện</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>4</stt>
+    <noidung>Chuyển khoa</noidung>
+    <soluong>7</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>5</stt>
+    <noidung>Hiện còn</noidung>
+    <soluong>141</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>6</stt>
+    <noidung>Hiện còn nam</noidung>
+    <soluong>83</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>7</stt>
+    <noidung>Hiện còn nữ</noidung>
+    <soluong>58</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>8</stt>
+    <noidung>Bệnh điểm</noidung>
+    <soluong>17</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>9</stt>
+    <noidung>Bệnh điểm nam</noidung>
+    <soluong>12</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>10</stt>
+    <noidung>Bệnh điểm nữ</noidung>
+    <soluong>5</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>11</stt>
+    <noidung>Thở máy</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>12</stt>
+    <noidung>Máy thở trống</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>13</stt>
+    <noidung>Máy thở hỏng</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>14</stt>
+    <noidung>Giường trống</noidung>
+    <soluong>41</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>moi</NHOM>
+    <MABN>10854692</MABN>
+    <HOTEN>TRẦN THỊ XUÂN THỦY</HOTEN>
+    <NAMSINH>1962</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>moi</NHOM>
+    <MABN>15598330</MABN>
+    <HOTEN>TRANG THỊ BÉ HAI</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>moi</NHOM>
+    <MABN>15167686</MABN>
+    <HOTEN>NGUYỄN THỊ VÂN</HOTEN>
+    <NAMSINH>1964</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15596573</MABN>
+    <HOTEN>NGUYỄN VĂN LỢI</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15593440</MABN>
+    <HOTEN>NGUYỄN THỊ HAI</HOTEN>
+    <NAMSINH>1929</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15596374</MABN>
+    <HOTEN>NGUYỄN THỊ HUỆ</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15596908</MABN>
+    <HOTEN>NGUYỄN ĐÌNH PHONG</HOTEN>
+    <NAMSINH>1996</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15596377</MABN>
+    <HOTEN>TRẦN VĂN DŨNG</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15595265</MABN>
+    <HOTEN>LÊ HỒNG DƯƠNG</HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15597892</MABN>
+    <HOTEN>VŨ VĂN HIỆP</HOTEN>
+    <NAMSINH>1968</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15593305</MABN>
+    <HOTEN>NGÔ THỊ TUYẾT PHƯƠNG </HOTEN>
+    <NAMSINH>1954</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15598136</MABN>
+    <HOTEN>BÙI VĂN THINH</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15598224</MABN>
+    <HOTEN>TRẦN TIẾN ĐỨC</HOTEN>
+    <NAMSINH>1979</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15598239</MABN>
+    <HOTEN>NGUYỄN VĂN DẦN</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15597972</MABN>
+    <HOTEN>KONG KAY</HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15589956</MABN>
+    <HOTEN>NGUYỄN PHÚ LỢI</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15166610</MABN>
+    <HOTEN>TRẦN THỊ KIM LOAN</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nữ</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15139370</MABN>
+    <HOTEN>LÊ BÌNH AN</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15594571</MABN>
+    <HOTEN>LÊ CÔNG TÂY</HOTEN>
+    <NAMSINH>1987</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15597759</MABN>
+    <HOTEN>DƯƠNG VĂN KHOA</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15593440</MABN>
+    <HOTEN>NGUYỄN THỊ HAI</HOTEN>
+    <NAMSINH>1929</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>01</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15589956</MABN>
+    <HOTEN>NGUYỄN PHÚ LỢI</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>02</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596374</MABN>
+    <HOTEN>NGUYỄN THỊ HUỆ</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>03</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15593305</MABN>
+    <HOTEN>NGÔ THỊ TUYẾT PHƯƠNG </HOTEN>
+    <NAMSINH>1954</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>05</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597972</MABN>
+    <HOTEN>KONG KAY</HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>06</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596908</MABN>
+    <HOTEN>NGUYỄN ĐÌNH PHONG</HOTEN>
+    <NAMSINH>1996</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>07</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596377</MABN>
+    <HOTEN>TRẦN VĂN DŨNG</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>08</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15139370</MABN>
+    <HOTEN>LÊ BÌNH AN</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123</TENPHONGBV>
+    <TENGIUONGBV>09</TENGIUONGBV>
+    <STTPHONG>1</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597892</MABN>
+    <HOTEN>VŨ VĂN HIỆP</HOTEN>
+    <NAMSINH>1968</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>12</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15166610</MABN>
+    <HOTEN>TRẦN THỊ KIM LOAN</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>12bis</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598224</MABN>
+    <HOTEN>TRẦN TIẾN ĐỨC</HOTEN>
+    <NAMSINH>1979</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>14</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598239</MABN>
+    <HOTEN>NGUYỄN VĂN DẦN</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>15</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598136</MABN>
+    <HOTEN>BÙI VĂN THINH</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>16</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597759</MABN>
+    <HOTEN>DƯƠNG VĂN KHOA</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>17</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594571</MABN>
+    <HOTEN>LÊ CÔNG TÂY</HOTEN>
+    <NAMSINH>1987</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>18</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595265</MABN>
+    <HOTEN>LÊ HỒNG DƯƠNG</HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>19</TENGIUONGBV>
+    <STTPHONG>2</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596573</MABN>
+    <HOTEN>NGUYỄN VĂN LỢI</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-123        (TT)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>3</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15162284</MABN>
+    <HOTEN>VÕ DUY KHƯƠNG</HOTEN>
+    <NAMSINH>1985</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-102        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>23</TENGIUONGBV>
+    <STTPHONG>4</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596921</MABN>
+    <HOTEN>LÊ VĂN TƯ</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-102        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>24</TENGIUONGBV>
+    <STTPHONG>4</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594140</MABN>
+    <HOTEN>NGUYỄN VĂN NGỌC</HOTEN>
+    <NAMSINH>1994</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>27</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15162558</MABN>
+    <HOTEN>NGUYỄN VĂN BƯỜN</HOTEN>
+    <NAMSINH>1967</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>28</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597465</MABN>
+    <HOTEN>TRẦN TRỌNG CẢNH</HOTEN>
+    <NAMSINH>1993</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT 01</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598107</MABN>
+    <HOTEN>NGUYỄN VĂN THƯA</HOTEN>
+    <NAMSINH>1969</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT 01</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597421</MABN>
+    <HOTEN>GIANG QUỐC HUY</HOTEN>
+    <NAMSINH>1993</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>11652218</MABN>
+    <HOTEN>NGUYỄN VĂN THANH</HOTEN>
+    <NAMSINH>1936</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597657</MABN>
+    <HOTEN>SƠN ĐẠI BÁU</HOTEN>
+    <NAMSINH>1975</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15110171</MABN>
+    <HOTEN>NGUYỄN QUỐC ANH</HOTEN>
+    <NAMSINH>1997</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597020</MABN>
+    <HOTEN>LƯU PHAN TÀI</HOTEN>
+    <NAMSINH>1972</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-103        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT05</TENGIUONGBV>
+    <STTPHONG>5</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595472</MABN>
+    <HOTEN>TRẦN ĐỨC PHÚ</HOTEN>
+    <NAMSINH>2011</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>31</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595494</MABN>
+    <HOTEN>NGUYỄN VĂN TÌNH</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>32</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596747</MABN>
+    <HOTEN>PHAN HOÀNG HẢI</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>33</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596953</MABN>
+    <HOTEN>TRẦN VĂN BÌNH</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15159951</MABN>
+    <HOTEN>NGUYỄN TẤN TUẤN</HOTEN>
+    <NAMSINH>1983</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598145</MABN>
+    <HOTEN>PHAN THANH PHONG</HOTEN>
+    <NAMSINH>1993</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594696</MABN>
+    <HOTEN>NGUYỄN PHƯỚC HOÀNG</HOTEN>
+    <NAMSINH>1968</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-104        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>6</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596163</MABN>
+    <HOTEN>HỒ QUANG SƠN</HOTEN>
+    <NAMSINH>1970</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>36</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15095224</MABN>
+    <HOTEN>PHAN THỊ NHUNG</HOTEN>
+    <NAMSINH>1952</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>37</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15150453</MABN>
+    <HOTEN>NGUYỄN VĂN BI</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>38</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15167686</MABN>
+    <HOTEN>NGUYỄN THỊ VÂN</HOTEN>
+    <NAMSINH>1964</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594191</MABN>
+    <HOTEN>LÊ VĂN HAI </HOTEN>
+    <NAMSINH>1953</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15163206</MABN>
+    <HOTEN>ĐẶNG PHƯỚC TÀI</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>08034815</MABN>
+    <HOTEN>NGUYỄN TẤN VIỆT</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-105        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>7</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594469</MABN>
+    <HOTEN>VÕ VĂN NỈ</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>41</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15155847</MABN>
+    <HOTEN>HUỲNH BÉ NHỎ</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>42</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15163972</MABN>
+    <HOTEN>NGUYỄN NHÃ NĂM</HOTEN>
+    <NAMSINH>1986</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>45</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597796</MABN>
+    <HOTEN>ĐỖ VĂN BÌNH</HOTEN>
+    <NAMSINH>1968</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14104716</MABN>
+    <HOTEN>NGUYỄN VĂN THƯA</HOTEN>
+    <NAMSINH>1936</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595821</MABN>
+    <HOTEN>THI TẤN TÀI</HOTEN>
+    <NAMSINH>1997</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>13024411</MABN>
+    <HOTEN>LÊ HỒ HỮU HÓA</HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15164782</MABN>
+    <HOTEN>NGUYỄN ĐÌNH NAM</HOTEN>
+    <NAMSINH>1970</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598098</MABN>
+    <HOTEN>HỒ VĂN HẢO</HOTEN>
+    <NAMSINH>1940</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT05</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15160802</MABN>
+    <HOTEN>TRẦN VĂN YÊM</HOTEN>
+    <NAMSINH>1947</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-106        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT05</TENGIUONGBV>
+    <STTPHONG>8</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>13038065</MABN>
+    <HOTEN>PHẠM CÔNG MINH</HOTEN>
+    <NAMSINH>1943</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>46</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>09010463</MABN>
+    <HOTEN>NGUYỄN THÀNH DŨNG</HOTEN>
+    <NAMSINH>1969</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>47</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15151274</MABN>
+    <HOTEN>NGUYỄN VĂN NHUẬN</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>50</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14157542</MABN>
+    <HOTEN>PHAN VĂN DỮ</HOTEN>
+    <NAMSINH>1965</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597782</MABN>
+    <HOTEN>HOÀNG VĂN CẨM</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15112848</MABN>
+    <HOTEN>PHẠM VĂN SI</HOTEN>
+    <NAMSINH>1941</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15135398</MABN>
+    <HOTEN>NGUYỄN DUY LÂM</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-107        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT05</TENGIUONGBV>
+    <STTPHONG>9</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597188</MABN>
+    <HOTEN>ĐỖ VĂN NĂM</HOTEN>
+    <NAMSINH>1970</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>51</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597507</MABN>
+    <HOTEN>MÃ VĂN ÁNH</HOTEN>
+    <NAMSINH>1972</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>52</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595041</MABN>
+    <HOTEN>LƯU HỮU PHÚC</HOTEN>
+    <NAMSINH>1985</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>53</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15592540</MABN>
+    <HOTEN>NGUYỄN NGỌC SANG</HOTEN>
+    <NAMSINH>1971</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>54</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594860</MABN>
+    <HOTEN>ĐỖ MẠNH TƯỞNG</HOTEN>
+    <NAMSINH>1987</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596935</MABN>
+    <HOTEN>HUỲNH CÔNG PHÚ</HOTEN>
+    <NAMSINH>1983</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-108        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>10</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15590837</MABN>
+    <HOTEN>NGUYỄN THỊ THÚY LOAN</HOTEN>
+    <NAMSINH>1979</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>56</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15161908</MABN>
+    <HOTEN>NGUYỄN THỊ HẠNH</HOTEN>
+    <NAMSINH>1964</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>57</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15162237</MABN>
+    <HOTEN>NGUYỄN THỊ THU LOAN</HOTEN>
+    <NAMSINH>1971</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>59</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15091174</MABN>
+    <HOTEN>PHẠM THỊ NGỌC</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>60</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597193</MABN>
+    <HOTEN>LÊ THỊ MÙI</HOTEN>
+    <NAMSINH>1949</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15156319</MABN>
+    <HOTEN>HUỲNH THỊ NGA</HOTEN>
+    <NAMSINH>1966</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>13115908</MABN>
+    <HOTEN>THẨM KIM THANH</HOTEN>
+    <NAMSINH>1954</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597545</MABN>
+    <HOTEN>NGUYỄN THỊ NANG</HOTEN>
+    <NAMSINH>1945</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598330</MABN>
+    <HOTEN>TRANG THỊ BÉ HAI</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-109        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>11</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596415</MABN>
+    <HOTEN>HUỲNH THỊ NGOAN </HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>61</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597284</MABN>
+    <HOTEN>DƯƠNG THỊ CẨM TIÊN</HOTEN>
+    <NAMSINH>2001</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>63</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15589047</MABN>
+    <HOTEN>NGUYỄN THỊ TUYẾT</HOTEN>
+    <NAMSINH>1957</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>64</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596653</MABN>
+    <HOTEN>DƯƠNG THỊ MÉN</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>65</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>11700707</MABN>
+    <HOTEN>PHẠM THỊ NĂM</HOTEN>
+    <NAMSINH>1941</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>65</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596056</MABN>
+    <HOTEN>HOÀNG THỊ THU THẢO</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>66</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15165143</MABN>
+    <HOTEN>ĐẶNG THỊ ĐEN</HOTEN>
+    <NAMSINH>1947</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>67</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15593679</MABN>
+    <HOTEN>TRẦN NGỌC SANH</HOTEN>
+    <NAMSINH>1942</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14134632</MABN>
+    <HOTEN>NGUYỄN THỊ THANH</HOTEN>
+    <NAMSINH>1969</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-110        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15163665</MABN>
+    <HOTEN>NGUYỄN THỊ NIÊM</HOTEN>
+    <NAMSINH>1961</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>68</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598038</MABN>
+    <HOTEN>NGUYỄN THỊ TÍM</HOTEN>
+    <NAMSINH>1937</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>69</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14170409</MABN>
+    <HOTEN>NGUYỄN THỊ THỦY</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>71</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594414</MABN>
+    <HOTEN>LÊ THỊ LIÊN</HOTEN>
+    <NAMSINH>1954</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596408</MABN>
+    <HOTEN>HUỲNH THỊ ĐẸP</HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15165705</MABN>
+    <HOTEN>LÊ THỊ BẢY</HOTEN>
+    <NAMSINH>1946</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-111        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>13</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>08052866</MABN>
+    <HOTEN>NGUYỄN THỊ MINH</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-112        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>72</TENGIUONGBV>
+    <STTPHONG>14</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594016</MABN>
+    <HOTEN>HỒ TRẦN THANH LỘC</HOTEN>
+    <NAMSINH>1993</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-112        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>73</TENGIUONGBV>
+    <STTPHONG>14</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15591777</MABN>
+    <HOTEN>HUỲNH THỊ THÚY NGA</HOTEN>
+    <NAMSINH>1969</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-112        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>74</TENGIUONGBV>
+    <STTPHONG>14</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14541355</MABN>
+    <HOTEN>VĂN HỮU GỐM</HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-114</TENPHONGBV>
+    <TENGIUONGBV>75</TENGIUONGBV>
+    <STTPHONG>15</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>08024642</MABN>
+    <HOTEN>MAI THANH TUYỀN</HOTEN>
+    <NAMSINH>1972</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>77</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15162613</MABN>
+    <HOTEN>NÔ PÍCH</HOTEN>
+    <NAMSINH>1965</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>78</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597819</MABN>
+    <HOTEN>LÊ THỊ ĐỊNH</HOTEN>
+    <NAMSINH>1933</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597110</MABN>
+    <HOTEN>NHỮ THỊ YẾN</HOTEN>
+    <NAMSINH>1999</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597921</MABN>
+    <HOTEN>NGUYỄN THỊ HOÀNG</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>11066948</MABN>
+    <HOTEN>NGUYỄN THỊ ÚT</HOTEN>
+    <NAMSINH>1969</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-129        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>17</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597827</MABN>
+    <HOTEN>NGÔ THANH TÒNG</HOTEN>
+    <NAMSINH>1977</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-130        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>81</TENGIUONGBV>
+    <STTPHONG>18</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15567606</MABN>
+    <HOTEN>LÊ TRUNG TÍNH</HOTEN>
+    <NAMSINH>2000</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-130        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>82</TENGIUONGBV>
+    <STTPHONG>18</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596774</MABN>
+    <HOTEN>BIỆN VĂN RỐM</HOTEN>
+    <NAMSINH>1947</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-130        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>83</TENGIUONGBV>
+    <STTPHONG>18</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>10099046</MABN>
+    <HOTEN>PHẠM THỊ NĂM</HOTEN>
+    <NAMSINH>1956</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-130        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>18</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15159033</MABN>
+    <HOTEN>LÊ NGUYÊN SOA</HOTEN>
+    <NAMSINH>1952</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-131        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>85</TENGIUONGBV>
+    <STTPHONG>19</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15161735</MABN>
+    <HOTEN>LÊ VĂN LẮNG</HOTEN>
+    <NAMSINH>1972</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-131        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>86</TENGIUONGBV>
+    <STTPHONG>19</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15093548</MABN>
+    <HOTEN>NGUYỄN THÁI THANH</HOTEN>
+    <NAMSINH>1948</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-131        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>88</TENGIUONGBV>
+    <STTPHONG>19</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15164677</MABN>
+    <HOTEN>TRẦN MINH TRÍ</HOTEN>
+    <NAMSINH>1988</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-131        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>19</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595743</MABN>
+    <HOTEN>NGUYỄN THỊ PHƯƠNG HOA</HOTEN>
+    <NAMSINH>1994</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-132        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>92</TENGIUONGBV>
+    <STTPHONG>20</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15134015</MABN>
+    <HOTEN>NGUYỄN THỊ THI</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-132        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>20</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597935</MABN>
+    <HOTEN>HOÀNG VĂN LONG</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-132        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>20</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596687</MABN>
+    <HOTEN>HỒ THỊ THỚI</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-132        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>20</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598252</MABN>
+    <HOTEN>NGUYỄN THỊ LỆ THỦY</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-132        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT04</TENGIUONGBV>
+    <STTPHONG>20</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15160082</MABN>
+    <HOTEN>HOÀNG ĐỨC MINH</HOTEN>
+    <NAMSINH>1977</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-135        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>94</TENGIUONGBV>
+    <STTPHONG>21</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15164989</MABN>
+    <HOTEN>PHẠM VĂN CƯNG</HOTEN>
+    <NAMSINH>1951</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-135        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>95</TENGIUONGBV>
+    <STTPHONG>21</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598280</MABN>
+    <HOTEN>MUHA MATH MUSA</HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-135        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>96</TENGIUONGBV>
+    <STTPHONG>21</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597038</MABN>
+    <HOTEN>TRẦN MINH HẢI</HOTEN>
+    <NAMSINH>1985</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-135        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>21</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15581462</MABN>
+    <HOTEN>LÊ THỊ HỒ </HOTEN>
+    <NAMSINH>1966</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>100</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>11175252</MABN>
+    <HOTEN>NGUYỄN THỊ THU CẨN</HOTEN>
+    <NAMSINH>1961</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>97</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15157705</MABN>
+    <HOTEN>PHAN KIM PHƯỢNG</HOTEN>
+    <NAMSINH>1966</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>97</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>10854692</MABN>
+    <HOTEN>TRẦN THỊ XUÂN THỦY</HOTEN>
+    <NAMSINH>1962</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>98</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>10147275</MABN>
+    <HOTEN>CHÂU THỊ PHÈN</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>99</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597853</MABN>
+    <HOTEN>PHAN THỊ PHƯƠNG UYÊN</HOTEN>
+    <NAMSINH>1998</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596962</MABN>
+    <HOTEN>ĐẶNG THỊ TUYẾT HOA</HOTEN>
+    <NAMSINH>1961</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15164998</MABN>
+    <HOTEN>NGUYỄN THỊ LIÊN</HOTEN>
+    <NAMSINH>1941</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-136        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>22</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15164525</MABN>
+    <HOTEN>PHẠM THỊ HẠNH</HOTEN>
+    <NAMSINH>1966</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-137        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>101</TENGIUONGBV>
+    <STTPHONG>23</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15596208</MABN>
+    <HOTEN>NHỮ THỊ HỒNG SƯƠNG</HOTEN>
+    <NAMSINH>1995</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-137        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>102</TENGIUONGBV>
+    <STTPHONG>23</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15594578</MABN>
+    <HOTEN>LÊ THỊ THẢO</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-137        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>103</TENGIUONGBV>
+    <STTPHONG>23</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>14544162</MABN>
+    <HOTEN>THẠCH THỊ LÙNG</HOTEN>
+    <NAMSINH>1955</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-137        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>104</TENGIUONGBV>
+    <STTPHONG>23</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15598281</MABN>
+    <HOTEN>NGUYỄN THU HƯỜNG</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENPHONGBV>B1-137        ( NỮ )</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>23</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15595017</MABN>
+    <HOTEN>VÕ THANH TRIỀU</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>106</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>12161713</MABN>
+    <HOTEN>TRẦN THANH VŨ</HOTEN>
+    <NAMSINH>1967</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>106</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>13737073</MABN>
+    <HOTEN>ĐẶNG QUỐC PHÒNG</HOTEN>
+    <NAMSINH>1952</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>106</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597127</MABN>
+    <HOTEN>LÊ TRƯƠNG HOÀI ĐỨC</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>107</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15161695</MABN>
+    <HOTEN>PHẠM HOÀNG PHONG</HOTEN>
+    <NAMSINH>1987</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>108</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15017482</MABN>
+    <HOTEN>LƯU HÁN XUYÊN</HOTEN>
+    <NAMSINH>1975</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>108</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15150333</MABN>
+    <HOTEN>PHẠM NGÔN XINH THÀNH</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>109</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15114662</MABN>
+    <HOTEN>TRỊNH VĂN NUÔI</HOTEN>
+    <NAMSINH>1972</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>110</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>10830322</MABN>
+    <HOTEN>VÕ THÀNH MỸ</HOTEN>
+    <NAMSINH>1960</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>111</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15157863</MABN>
+    <HOTEN>LÊ TẤN NGHĨA</HOTEN>
+    <NAMSINH>1983</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT01</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15597958</MABN>
+    <HOTEN>NGUYỄN CHẾ LINH</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT02</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>hiendien</NHOM>
+    <MABN>15166794</MABN>
+    <HOTEN>NGUYỄN VẠNG HẠNH</HOTEN>
+    <NAMSINH>1965</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENPHONGBV>B1-138        (NAM)</TENPHONGBV>
+    <TENGIUONGBV>GT03</TENGIUONGBV>
+    <STTPHONG>24</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+</NewDataSet>

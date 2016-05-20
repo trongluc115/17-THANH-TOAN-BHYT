@@ -1,0 +1,1 @@
+select ngaylamviec,mabn from thanhtoanbhyt  group by ngaylamviec,mabn having count(*)>1

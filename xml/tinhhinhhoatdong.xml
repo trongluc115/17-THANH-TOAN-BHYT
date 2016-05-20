@@ -1,0 +1,375 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LOAI" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUCDANH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tongso" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="ratruc" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="nghibu" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="nghiphep" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="nghiom" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="nghihausan" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="dihoc" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="hoinghi" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="congtac" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="giangday" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="khac" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="hiendien" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="TENNV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENDD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENDUOC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKHAC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DIADIEM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IDVITRI" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="VITRI" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IDCHUCDANH" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="tt" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="tenbs1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs2" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs3" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs4" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs5" type="xs:string" minOccurs="0" />
+                <xs:element name="tendd1" type="xs:string" minOccurs="0" />
+                <xs:element name="tendd2" type="xs:string" minOccurs="0" />
+                <xs:element name="tendd3" type="xs:string" minOccurs="0" />
+                <xs:element name="tendd4" type="xs:string" minOccurs="0" />
+                <xs:element name="tendd5" type="xs:string" minOccurs="0" />
+                <xs:element name="tenduoc1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenduoc2" type="xs:string" minOccurs="0" />
+                <xs:element name="tenduoc3" type="xs:string" minOccurs="0" />
+                <xs:element name="tenduoc4" type="xs:string" minOccurs="0" />
+                <xs:element name="tenduoc5" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkhac1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkhac2" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkhac3" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkhac4" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkhac5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <CHUCDANH>Bác sĩ</CHUCDANH>
+    <loai>TH</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <tt>0</tt>
+  </Table>
+  <Table>
+    <CHUCDANH>Điều dưỡng</CHUCDANH>
+    <loai>TH</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <tt>0</tt>
+  </Table>
+  <Table>
+    <CHUCDANH>Vi tính</CHUCDANH>
+    <loai>TH</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <tt>0</tt>
+  </Table>
+  <Table>
+    <CHUCDANH>NV khác</CHUCDANH>
+    <loai>TH</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <tt>0</tt>
+  </Table>
+  <Table>
+    <CHUCDANH>Nghỉ việc</CHUCDANH>
+    <loai>TH</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <tt>0</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>10</IDVITRI>
+    <VITRI>Hành chánh</VITRI>
+    <tt>1</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>11</IDVITRI>
+    <VITRI>Trực </VITRI>
+    <tt>2</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>12</IDVITRI>
+    <VITRI>Ra trực</VITRI>
+    <tt>3</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>13</IDVITRI>
+    <VITRI>Nghỉ bù</VITRI>
+    <tt>4</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>14</IDVITRI>
+    <VITRI>Nghỉ phép</VITRI>
+    <tt>5</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>15</IDVITRI>
+    <VITRI>Nghỉ ốm</VITRI>
+    <tt>6</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>16</IDVITRI>
+    <VITRI>Nghỉ hậu sản</VITRI>
+    <tt>7</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>17</IDVITRI>
+    <VITRI>Đi học (địa điểm)</VITRI>
+    <tt>8</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>18</IDVITRI>
+    <VITRI>Hội nghị / Hổi thảo (địa điểm)</VITRI>
+    <tt>9</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>19</IDVITRI>
+    <VITRI>Công tác (địa điểm )</VITRI>
+    <tt>10</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>20</IDVITRI>
+    <VITRI>Giảng dạy (địa điểm )</VITRI>
+    <tt>11</tt>
+  </Table>
+  <Table>
+    <LOAI>CT</LOAI>
+    <loai>CT</loai>
+    <tongso>0</tongso>
+    <ratruc>0</ratruc>
+    <nghibu>0</nghibu>
+    <nghiphep>0</nghiphep>
+    <nghiom>0</nghiom>
+    <nghihausan>0</nghihausan>
+    <dihoc>0</dihoc>
+    <hoinghi>0</hoinghi>
+    <congtac>0</congtac>
+    <giangday>0</giangday>
+    <khac>0</khac>
+    <hiendien>0</hiendien>
+    <IDVITRI>21</IDVITRI>
+    <VITRI>Khác</VITRI>
+    <tt>12</tt>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NHOM" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <NHOM>moi</NHOM>
+    <MABN>15073885</MABN>
+    <HOTEN>THUY 1</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </Table>
+  <Table>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15073884</MABN>
+    <HOTEN>JGKJK</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </Table>
+  <Table>
+    <NHOM>benhdiem</NHOM>
+    <MABN>15073884</MABN>
+    <HOTEN>JGKJK</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+  </Table>
+</NewDataSet>

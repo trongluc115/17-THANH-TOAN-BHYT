@@ -1,0 +1,5 @@
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\Entity\bin\Debug\Entity.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\Entity\bin\Debug\Entity.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\Entity\obj\Debug\Entity.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\Entity\obj\Debug\Entity.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache

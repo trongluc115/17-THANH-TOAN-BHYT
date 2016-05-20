@@ -1,0 +1,9 @@
+bin\Debug\Update.exe
+bin\Debug\Update.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Update.Properties.Resources.resources
+obj\Debug\Update.csproj.GenerateResource.Cache
+obj\Debug\Update.exe
+obj\Debug\Update.pdb
+bin\Debug\Oracle.DataAccess.dll
+obj\Debug\Update.frmUpdate.resources

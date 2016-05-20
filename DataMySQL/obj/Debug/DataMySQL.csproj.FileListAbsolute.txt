@@ -1,0 +1,11 @@
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\DataMySQL.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\DataMySQL.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\Entity.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\LibBaocao.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\Oracle.DataAccess.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\Interop.Excel.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\Entity.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\bin\Debug\LibBaocao.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\obj\Debug\DataMySQL.csprojResolveAssemblyReference.cache
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\obj\Debug\DataMySQL.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataMySQL\obj\Debug\DataMySQL.pdb

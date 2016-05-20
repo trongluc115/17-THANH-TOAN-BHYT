@@ -1,0 +1,198 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.IO;
+using System.Xml;
+using Oracle.DataAccess;
+using Oracle.DataAccess.Client;
+using Oracle.DataAccess.Types;
+using System.Diagnostics;
+
+namespace Update
+{
+    public partial class frmUpdate : Form
+    {
+        public frmUpdate()
+        {
+            InitializeComponent();
+        }
+        string path = "";
+        string dest="";
+        string module="";
+        string currentProgram = "";
+        string linkct="";
+        string pathReport = "";
+        string pathXml = "";
+        string[] processes ;
+        private void frmUpdate_Load(object sender, EventArgs e)
+        {
+            ds.ReadXml("path.xml");
+            module = ds.Tables["dest"].Rows[0][0].ToString();
+            currentProgram = module;
+            dest = ds.Tables["dest"].Rows[0][1].ToString();
+            linkct = dest;
+            processes = new string[ds.Tables["update"].Rows.Count];
+            for (int i = 0; i < processes.Length; i++)
+            {
+                processes[i] = ds.Tables["update"].Rows[i]["process"].ToString();
+                if (ds.Tables["update"].Rows[i]["module"].ToString().Trim() == module)
+                    path = ds.Tables["update"].Rows[i]["source"].ToString();               
+                if (ds.Tables["update"].Rows[i]["module"].ToString().Trim() == "folderReport")                
+                    pathReport = ds.Tables["update"].Rows[i]["source"].ToString();
+                if (ds.Tables["update"].Rows[i]["module"].ToString().Trim() == "folderXml")
+                    pathXml = ds.Tables["update"].Rows[i]["source"].ToString();
+            }
+            killProcess(processes);
+        }
+
+        /// <summary>
+        /// copy tất cả file và thư mục từ thư mục nguồn sang thư mục đích
+        /// </summary> 
+        /// <param name="srcPath">đường dẫn thư mục nguồn</param>
+        /// <param name="disPath">đường dẫn thư mục đích</param>
+        private void copyfile(string srcPath, string disPath)
+        {
+            label_source.Text = srcPath;
+            label_dest.Text = disPath;
+            try
+            {
+                string[] filenames = Directory.GetFiles(srcPath);
+                if (filenames.Length != 0)
+                {
+                    progressBar1.Maximum = filenames.Length;
+                    progressBar1.Minimum = 0;
+                    progressBar1.Value = 0;
+                    foreach (string filename in filenames)
+                    {
+                        label_copying.Text = filename.Substring(srcPath.Length + 1);
+                        Refresh();
+                        File.Copy(filename, disPath + filename.Substring(srcPath.Length), true);
+                        progressBar1.Value += 1;
+                    }
+                }
+                string[] Directs = Directory.GetDirectories(srcPath);
+                foreach (string Direct in Directs)
+                {
+                    Directory.CreateDirectory(disPath + Direct.Substring(srcPath.Length));
+                    copyfile(Direct, disPath + Direct.Substring(srcPath.Length));
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Không tìm thấy thư mục nguồn: " + srcPath + " + " + disPath);
+                return;
+            }
+        }
+        public string Maincode(string sql)
+        {
+            try
+            {
+                XmlDocument document = new XmlDocument();
+                document.Load(@"..\..\..\xml\maincode.xml");
+                return document.GetElementsByTagName(sql).Item(0).InnerText;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+        private void update()
+        {
+            string srcPath = "Z:\\UPDATE MEDISOFT\\Medisoft_full"; //m.ThuMucUpdate;
+            DataSet ds = new DataSet();
+            string file = "..\\..\\..\\xml\\PathUpdate.xml";
+            if (!System.IO.File.Exists(file))
+            {
+                run r = new run("Medisoft2009.exe", "", false);
+                r.Launch();
+                Application.Exit();
+            }
+            ds.ReadXml(file);
+            if (ds.Tables[0].Rows.Count == 0)
+            {
+                run r = new run("Medisoft2009.exe", "", false);
+                r.Launch();
+                Application.Exit();
+            }
+            foreach (DataRow r in ds.Tables[0].Rows)
+            {
+                srcPath = r["ten"].ToString().Trim();
+                break;
+            }
+            if(srcPath=="" || !System.IO.Directory.Exists(srcPath))
+            {
+                run r = new run("Medisoft2009.exe", "", false);
+                r.Launch();
+                Application.Exit();
+            }
+            string curDir = System.IO.Directory.GetCurrentDirectory();
+            string dirMedisoft = srcPath + "\\Medisoft2009\\bin\\Debug";
+            string dirReport = srcPath + "\\Report";
+            string dirXml = srcPath + "\\Xml";
+            label1.Visible = true;
+            copyfile(dirMedisoft, curDir); //cap nhat Medisoft
+            copyfile(dirReport, "..\\..\\..\\Report");   //cap nhat thu muc report
+            copyfile(dirXml, "..\\..\\..\\Xml");     //cap nhat thu muc xml
+            label1.Text = "Hoàn tất quá trình cập nhật";
+            label_copying.Text = "";
+            run nr = new run("Medisoft2009.exe", "", false);
+            nr.Launch();
+            Application.Exit();
+        }
+
+       /// <summary>
+        /// Tắt tất cả process mà tên process có trong mảng truyền vào
+       /// </summary>
+       /// <param name="productNames">Mảng tên process</param>
+        private void killProcess(string[] processNames)
+        {
+            string a;
+                Process currentProcess = Process.GetCurrentProcess();
+                foreach (Process otherProcess in Process.GetProcesses())
+                {
+                    try
+                    {
+                        for (int i = 0; i < processNames.Length; i++)
+                        {
+                            if (otherProcess.ProcessName.ToUpper() == processNames[i].ToUpper())
+                            {
+                                a = "";
+                                a = "Ứng dụng " + processNames[i] + ".exe sẽ thoát để bắt đầu cập nhật.\n Bạn có muốn thực hiện việc này không?\n\n Nhấn Yes để thoát chương trình và bắt đầu cập nhật.";
+                                if (MessageBox.Show(a, "MEDISOFT", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                                {
+                                    otherProcess.Kill();
+                                }
+                                else
+                                {
+                                    otherProcess.Kill();
+                                    Application.Exit();
+                                }
+                            }
+                        }
+                    }
+                    catch { }
+                }
+            }
+
+        private void frmUpdate_Shown(object sender, EventArgs e)
+        {
+            update();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Process p = Process.GetCurrentProcess();
+            string filename = p.ProcessName+".exe";
+            FileVersionInfo f = FileVersionInfo.GetVersionInfo(filename);
+            string iname=f.InternalName;
+            string oname = f.OriginalFilename;
+            string pname = f.ProductName;
+            string fileversion = f.FileVersion; 
+            fileversion = fileversion.Trim();
+        }
+    }
+}

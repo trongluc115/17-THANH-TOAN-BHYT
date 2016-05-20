@@ -1,0 +1,5 @@
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataUpdate\bin\Release\DataUpdate.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataUpdate\bin\Release\DataUpdate.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataUpdate\bin\Release\Oracle.DataAccess.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataUpdate\obj\Release\DataUpdate.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\DataUpdate\obj\Release\DataUpdate.pdb

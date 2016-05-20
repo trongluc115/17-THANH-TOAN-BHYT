@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+								<xs:element name="MABN" type="xs:string" minOccurs="0" />
+								<xs:element name="NOICHIDINH" type="xs:string" minOccurs="0" />
+								<xs:element name="SOHD" type="xs:string	" minOccurs="0" />
+								<xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+								<xs:element name="CT" type="xs:decimal" minOccurs="0" />
+								<xs:element name="SIEUAM" type="xs:decimal" minOccurs="0" />
+								<xs:element name="SIEUAMTIM" type="xs:decimal" minOccurs="0" />
+								<xs:element name="DIENTIM" type="xs:decimal" minOccurs="0" />
+								<xs:element name="XQUANG" type="xs:decimal" minOccurs="0" />
+								<xs:element name="XETNGHIEM" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MRI" type="xs:decimal" minOccurs="0" />
+								<xs:element name="KB" type="xs:decimal" minOccurs="0" />
+								<xs:element name="GHICHU" type="xs:string	" minOccurs="0" />
+								
+								
+								
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+</NewDataSet>
+
+

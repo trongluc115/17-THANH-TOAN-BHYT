@@ -1,0 +1,1488 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MABN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CAPCUU" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHUDONG" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAPT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PPTHUCTE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="GHICHU" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PPVC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="GIOBATDAU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GIOKETTHUC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PTV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENPTV" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENPHU1" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENPHU2" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="BSGAYME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENBSGAYME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="KTVGAYME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENKTVGAYME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="HOISUC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENHOISUC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DUNGCU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENDUNGCU" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TUOINAM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TUOINU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPHONGMO" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABN>15146091</MABN>
+    <HOTEN>BÙI QUANG MINH</HOTEN>
+    <TENKP>Pk Vật Lý Trị Liệu</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>T13022</MAPT>
+    <PPTHUCTE>Liệt dây VII ngoại biên</PPTHUCTE>
+    <PPVC>Gây Mê Tĩnh Mạch</PPVC>
+    <GIOBATDAU>29/07/2015 14:14</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:14</GIOKETTHUC>
+    <TUOINAM>058TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15139848</MABN>
+    <HOTEN>CAO THỊ TRÚC</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P03016</MAPT>
+    <PPTHUCTE>Thoát vị đĩa đệm cột sống thắt lưng</PPTHUCTE>
+    <GHICHU>Pt lấy nhận đệm L5 S1</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 11:50</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:50</GIOKETTHUC>
+    <PTV>0383</PTV>
+    <HOTENPTV>Chu Tấn Sĩ</HOTENPTV>
+    <PHU1>1639</PHU1>
+    <HOTENPHU1>Nguyễn Sĩ Bảo</HOTENPHU1>
+    <BSGAYME>1837</BSGAYME>
+    <HOTENBSGAYME>Phạm Trần Tâm - B4</HOTENBSGAYME>
+    <KTVGAYME>0644</KTVGAYME>
+    <HOTENKTVGAYME>Hồ Hùng Thái</HOTENKTVGAYME>
+    <HOISUC>0629</HOISUC>
+    <HOTENHOISUC>Nguyễn Thái Hùng</HOTENHOISUC>
+    <DUNGCU>0622</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Hải</HOTENDUNGCU>
+    <TUOINU>027TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15587758</MABN>
+    <HOTEN>DƯ VĨNH TUẤN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P13091</MAPT>
+    <PPTHUCTE>Gẫy xương đùi</PPTHUCTE>
+    <GHICHU>ĐĐ CHỐT XƯƠNG ĐÙI (T)</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 11:52</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:52</GIOKETTHUC>
+    <PTV>1636</PTV>
+    <HOTENPTV>Lê Xuân Nhàn</HOTENPTV>
+    <PHU1>0571</PHU1>
+    <HOTENPHU1>Dương Anh Thư</HOTENPHU1>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0665</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Thu Hương</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINAM>021TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13774260</MABN>
+    <HOTEN>DƯƠNG THỊ MỸ</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18336</MAPT>
+    <PPTHUCTE>Khuyết sọ sau chất thương sọ não</PPTHUCTE>
+    <GHICHU>Phẫu thuật vá sọ bán cầu phải</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 12:59</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 12:59</GIOKETTHUC>
+    <PTV>0387</PTV>
+    <HOTENPTV>Trần Thanh Tuyền</HOTENPTV>
+    <PHU1>0431</PHU1>
+    <HOTENPHU1>Lê Điền Sơn</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1935</KTVGAYME>
+    <HOTENKTVGAYME>Bồ Thị Thương</HOTENKTVGAYME>
+    <HOISUC>0628</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Biên</HOTENHOISUC>
+    <DUNGCU>0635</DUNGCU>
+    <HOTENDUNGCU>Đỗ Tường Ngọc Diễm</HOTENDUNGCU>
+    <TUOINU>050TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15141429</MABN>
+    <HOTEN>HOÀNG MAI TỐT</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>T08053</MAPT>
+    <PPTHUCTE>Sỏi niệu quản</PPTHUCTE>
+    <GHICHU>PT nội soi tán sỏi niệu quản (T) =laser </GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 14:58</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:58</GIOKETTHUC>
+    <PTV>1428</PTV>
+    <HOTENPTV>Đỗ Anh Đức</HOTENPTV>
+    <PHU1>1971</PHU1>
+    <HOTENPHU1>Lê Hoàng Thịnh</HOTENPHU1>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>0612</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Ghên</HOTENKTVGAYME>
+    <HOISUC>1443</HOISUC>
+    <HOTENHOISUC>Trần Phúc Hòa</HOTENHOISUC>
+    <DUNGCU>0671</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Yến</HOTENDUNGCU>
+    <TUOINAM>048TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589230</MABN>
+    <HOTEN>HUỲNH NGỌC CHIẾN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19461</MAPT>
+    <PPTHUCTE>Chấn thương đầu mặt</PPTHUCTE>
+    <GHICHU>Phẩu thuật mũi xoang qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 08:48</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 08:48</GIOKETTHUC>
+    <PTV>0534</PTV>
+    <HOTENPTV>Ngô Đức Minh Huy</HOTENPTV>
+    <PHU1>0537</PHU1>
+    <HOTENPHU1>Nguyễn Thị Thu Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0634</DUNGCU>
+    <HOTENDUNGCU>Lý Trung Hiếu</HOTENDUNGCU>
+    <TUOINAM>038TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589230</MABN>
+    <HOTEN>HUỲNH NGỌC CHIẾN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P06233</MAPT>
+    <PPTHUCTE>Chấn thương đầu mặt</PPTHUCTE>
+    <GHICHU>Phẫu thuật điều trị gãy gò má cung tiếp 2 bên </GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:31</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:31</GIOKETTHUC>
+    <PTV>0534</PTV>
+    <HOTENPTV>Ngô Đức Minh Huy</HOTENPTV>
+    <PHU1>0537</PHU1>
+    <HOTENPHU1>Nguyễn Thị Thu Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0634</DUNGCU>
+    <HOTENDUNGCU>Lý Trung Hiếu</HOTENDUNGCU>
+    <TUOINAM>038TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15032724</MABN>
+    <HOTEN>HUỲNH THỊ KIM EM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P13500</MAPT>
+    <PPTHUCTE>Bướu lành tính khác</PPTHUCTE>
+    <GHICHU>Bóc u phần mềm giữa đỉnh đầu</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 11:33</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:33</GIOKETTHUC>
+    <PTV>0389</PTV>
+    <HOTENPTV>Huỳnh Trí Dũng</HOTENPTV>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>1936</KTVGAYME>
+    <HOTENKTVGAYME>Vũ Trần Quốc Nhật</HOTENKTVGAYME>
+    <HOISUC>0626</HOISUC>
+    <HOTENHOISUC>Lê Thị Anh Thư</HOTENHOISUC>
+    <DUNGCU>0607</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Bạch Nga</HOTENDUNGCU>
+    <TUOINU>045TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15143375</MABN>
+    <HOTEN>HUỲNH THỊ MÉN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19459</MAPT>
+    <PPTHUCTE>Thoát vị bẹn</PPTHUCTE>
+    <GHICHU>Phẩu thuật nội soi thám sát tái tại thành bẹn trái bằng mảnh ghép</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 10:40</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 10:40</GIOKETTHUC>
+    <PTV>0459</PTV>
+    <HOTENPTV>Nguyễn Quang Huy</HOTENPTV>
+    <PHU1>1677</PHU1>
+    <HOTENPHU1>Trần Thanh Hiền</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1935</KTVGAYME>
+    <HOTENKTVGAYME>Bồ Thị Thương</HOTENKTVGAYME>
+    <HOISUC>0628</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Biên</HOTENHOISUC>
+    <DUNGCU>0635</DUNGCU>
+    <HOTENDUNGCU>Đỗ Tường Ngọc Diễm</HOTENDUNGCU>
+    <TUOINU>055TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15587814</MABN>
+    <HOTEN>HUỲNH TẤN KIỆT</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18118</MAPT>
+    <PPTHUCTE>Đa chấn thương</PPTHUCTE>
+    <GHICHU>Phẫu thuật kết hợp xương XƯƠNG HÀM bằng nẹp vít, điều chỉnh xương ổ răng, cố định hàm</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:20</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:20</GIOKETTHUC>
+    <PTV>0564</PTV>
+    <HOTENPTV>Trần Xuân Thông</HOTENPTV>
+    <PHU1>0571</PHU1>
+    <HOTENPHU1>Dương Anh Thư</HOTENPHU1>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0637</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Yến</HOTENKTVGAYME>
+    <HOISUC>1691</HOISUC>
+    <HOTENHOISUC>Phan Quốc Dương</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINAM>046TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15587814</MABN>
+    <HOTEN>HUỲNH TẤN KIỆT</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19205</MAPT>
+    <PPTHUCTE>Đa chấn thương</PPTHUCTE>
+    <GHICHU>nắn trật khớp háng bắt vit tự thân cổ xương đùi (t)</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:17</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:17</GIOKETTHUC>
+    <PTV>0685</PTV>
+    <HOTENPTV>Nguyễn Hữu Tâm</HOTENPTV>
+    <PHU1>0695</PHU1>
+    <HOTENPHU1>Nguyễn Cao Viễn</HOTENPHU1>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0637</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Yến</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINAM>046TU</TUOINAM>
+    <TENPHONGMO>Phòng Mổ 3</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>14037718</MABN>
+    <HOTEN>HÀ THỊ THẮNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19299</MAPT>
+    <PPTHUCTE>Vết rách sụn chêm, hiện tại</PPTHUCTE>
+    <GHICHU>Nội soi cắt lọc tạo hình khớp gối (T)</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 15:35</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:35</GIOKETTHUC>
+    <PTV>0730</PTV>
+    <HOTENPTV>Ngô Thành Ý</HOTENPTV>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>0666</KTVGAYME>
+    <HOTENKTVGAYME>Huỳnh Thanh Phong</HOTENKTVGAYME>
+    <HOISUC>0616</HOISUC>
+    <HOTENHOISUC>Lê Phạm Uyên Kha</HOTENHOISUC>
+    <DUNGCU>0616</DUNGCU>
+    <HOTENDUNGCU>Lê Phạm Uyên Kha</HOTENDUNGCU>
+    <TUOINU>061TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15037617</MABN>
+    <HOTEN>LÂM THỊ MINH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P10010</MAPT>
+    <PPTHUCTE>Hiến thận</PPTHUCTE>
+    <GHICHU>Phẫu thuật lấy thận (T) để ghép</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 08:01</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 08:01</GIOKETTHUC>
+    <PTV>1425</PTV>
+    <HOTENPTV>Trương Hoàng Minh</HOTENPTV>
+    <PHU1>1429</PHU1>
+    <HOTENPHU1>Trương Sĩ Vinh</HOTENPHU1>
+    <PHU2>1428</PHU2>
+    <HOTENPHU2>Đỗ Anh Đức</HOTENPHU2>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>0612</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Ghên</HOTENKTVGAYME>
+    <HOISUC>0671</HOISUC>
+    <HOTENHOISUC>Hoàng Thị Yến</HOTENHOISUC>
+    <DUNGCU>0631</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Hoàng Sơn</HOTENDUNGCU>
+    <TUOINU>053TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15138177</MABN>
+    <HOTEN>LÊ MINH HÙNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P01015</MAPT>
+    <PPTHUCTE>Tinh hoàn không xác định</PPTHUCTE>
+    <GHICHU>Cắt tinh hoàn tận gốc +nạo hạch </GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 14:51</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:51</GIOKETTHUC>
+    <PTV>1428</PTV>
+    <HOTENPTV>Đỗ Anh Đức</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0633</HOISUC>
+    <HOTENHOISUC>Tăng Tiến</HOTENHOISUC>
+    <DUNGCU>0632</DUNGCU>
+    <HOTENDUNGCU>Trần Minh HảI</HOTENDUNGCU>
+    <TUOINAM>046TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>14503042</MABN>
+    <HOTEN>LÊ PHƯỚC MAI </HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19306</MAPT>
+    <PPTHUCTE>Đau ở cổ chân</PPTHUCTE>
+    <GHICHU>rút chỉ thép +kirchner mắt  cá ngoài chân (   )</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 14:48</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:48</GIOKETTHUC>
+    <PTV>0692</PTV>
+    <HOTENPTV>Nguyễn Hoài Nam</HOTENPTV>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0637</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Yến</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINAM>025TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589904</MABN>
+    <HOTEN>LÊ QUỐC TRUNG </HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P08041</MAPT>
+    <PPTHUCTE>Viêm phúc mạc</PPTHUCTE>
+    <GHICHU>Cắt ruột thừa rửa bụng dẫn lưu</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 03:04</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 03:04</GIOKETTHUC>
+    <PTV>1850</PTV>
+    <HOTENPTV>Bùi Minh Thanh</HOTENPTV>
+    <BSGAYME>0593</BSGAYME>
+    <HOTENBSGAYME>Huỳnh Hồ Hải</HOTENBSGAYME>
+    <KTVGAYME>1626</KTVGAYME>
+    <HOTENKTVGAYME>Lê Diễm Phúc </HOTENKTVGAYME>
+    <HOISUC>0614</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Hải</HOTENHOISUC>
+    <DUNGCU>0608</DUNGCU>
+    <HOTENDUNGCU>Bùi Thị Đảo</HOTENDUNGCU>
+    <TUOINAM>017TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15143544</MABN>
+    <HOTEN>LÊ THANH NHÀN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19300</MAPT>
+    <PPTHUCTE>Bong gân dây chằng 2 bên của gối</PPTHUCTE>
+    <GHICHU>Nội soi tái tạo dây chằng chéo trước, cắt tạo hình sụn chêm gối (P)</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 11:00</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:00</GIOKETTHUC>
+    <PTV>0731</PTV>
+    <HOTENPTV>Phạm Nguyễn Thanh Trung</HOTENPTV>
+    <PHU1>0686</PHU1>
+    <HOTENPHU1>Trần Văn Dương</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>0974</KTVGAYME>
+    <HOTENKTVGAYME>Huỳnh Thanh Phong</HOTENKTVGAYME>
+    <HOISUC>0616</HOISUC>
+    <HOTENHOISUC>Lê Phạm Uyên Kha</HOTENHOISUC>
+    <DUNGCU>0616</DUNGCU>
+    <HOTENDUNGCU>Lê Phạm Uyên Kha</HOTENDUNGCU>
+    <TUOINAM>034TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15584397</MABN>
+    <HOTEN>LÊ THỊ HẠNH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P13074</MAPT>
+    <PPTHUCTE>Nhiễm trùng vết thương</PPTHUCTE>
+    <GHICHU>tạo hình +chuyển xoay vạt da từ 2 bẹn (t)+(p) xuống cẳng chân (t)</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 09:26</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:26</GIOKETTHUC>
+    <PTV>0690</PTV>
+    <HOTENPTV>Vũ Minh Đức</HOTENPTV>
+    <PHU1>1739</PHU1>
+    <HOTENPHU1>Trương Văn Tài</HOTENPHU1>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0665</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Thu Hương</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINU>018TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15142874</MABN>
+    <HOTEN>LÊ TRỌNG CHINH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19461</MAPT>
+    <PPTHUCTE>Lệch vách mũi</PPTHUCTE>
+    <GHICHU>Phẩu thuật mũi xoang qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 13:44</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 13:44</GIOKETTHUC>
+    <PTV>0962</PTV>
+    <HOTENPTV>Lâm Hoàng Yến</HOTENPTV>
+    <PHU1>0533</PHU1>
+    <HOTENPHU1>Huỳnh Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0628</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Thanh Biên</HOTENDUNGCU>
+    <TUOINAM>025TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15588862</MABN>
+    <HOTEN>LÝ HỮU PHƯỚC</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18325</MAPT>
+    <PPTHUCTE>Chấn Thương Sọ Não</PPTHUCTE>
+    <GHICHU>Pt khoan sọ dẫn lưu máu tụ dưới màng cứng bán cầu trái </GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 14:28</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:28</GIOKETTHUC>
+    <PTV>0390</PTV>
+    <HOTENPTV>Lê Trung Thứ</HOTENPTV>
+    <BSGAYME>1837</BSGAYME>
+    <HOTENBSGAYME>Phạm Trần Tâm - B4</HOTENBSGAYME>
+    <KTVGAYME>0644</KTVGAYME>
+    <HOTENKTVGAYME>Hồ Hùng Thái</HOTENKTVGAYME>
+    <HOISUC>0629</HOISUC>
+    <HOTENHOISUC>Nguyễn Thái Hùng</HOTENHOISUC>
+    <DUNGCU>0622</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Hải</HOTENDUNGCU>
+    <TUOINAM>073TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15144595</MABN>
+    <HOTEN>NGUYỄN CÔNG THÀNH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P03014</MAPT>
+    <PPTHUCTE>Xuất huyết khoang dưới nhận</PPTHUCTE>
+    <GHICHU>Khoan sọ dẫn lưu máu tụ 2 bên bán cầu (P) + (T)</GHICHU>
+    <PPVC>Tiền mê + Gây mê tại chổ</PPVC>
+    <GIOBATDAU>29/07/2015 15:27</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:27</GIOKETTHUC>
+    <PTV>0432</PTV>
+    <HOTENPTV>Huỳnh Xuân Điểm</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0633</HOISUC>
+    <HOTENHOISUC>Tăng Tiến</HOTENHOISUC>
+    <DUNGCU>0632</DUNGCU>
+    <HOTENDUNGCU>Trần Minh HảI</HOTENDUNGCU>
+    <TUOINAM>052TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>14018170</MABN>
+    <HOTEN>NGUYỄN DUY KHÁNH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P16021</MAPT>
+    <PPTHUCTE>Viêm xoang hàm cấp, không xác định</PPTHUCTE>
+    <GHICHU>Phẫu thuật mũi  xoang qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 12:21</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 12:21</GIOKETTHUC>
+    <PTV>0557</PTV>
+    <HOTENPTV>Lê Hoàng Yến</HOTENPTV>
+    <PHU1>0533</PHU1>
+    <HOTENPHU1>Huỳnh Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0634</DUNGCU>
+    <HOTENDUNGCU>Lý Trung Hiếu</HOTENDUNGCU>
+    <TUOINAM>039TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15135176</MABN>
+    <HOTEN>NGUYỄN HOÀNG THẤT</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P01010</MAPT>
+    <PPTHUCTE>Bướu giáp lan toả lành tính</PPTHUCTE>
+    <GHICHU>Cắt 1 thùy tuyến giáp vét hạch cổ 1 bên</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 10:14</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 10:14</GIOKETTHUC>
+    <PTV>0515</PTV>
+    <HOTENPTV>Đồng Đức Hưng</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0633</HOISUC>
+    <HOTENHOISUC>Tăng Tiến</HOTENHOISUC>
+    <DUNGCU>0632</DUNGCU>
+    <HOTENDUNGCU>Trần Minh HảI</HOTENDUNGCU>
+    <TUOINAM>055TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15588982</MABN>
+    <HOTEN>NGUYỄN HỮU THỌ</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P06265</MAPT>
+    <PPTHUCTE>Gẫy xương hàm dưới</PPTHUCTE>
+    <GHICHU>Phẫu thuật kết hợp XHD  bằng nẹp vít, cố định hàm</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:09</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:09</GIOKETTHUC>
+    <PTV>0564</PTV>
+    <HOTENPTV>Trần Xuân Thông</HOTENPTV>
+    <PHU1>0571</PHU1>
+    <HOTENPHU1>Dương Anh Thư</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>1936</KTVGAYME>
+    <HOTENKTVGAYME>Vũ Trần Quốc Nhật</HOTENKTVGAYME>
+    <HOISUC>1691</HOISUC>
+    <HOTENHOISUC>Phan Quốc Dương</HOTENHOISUC>
+    <DUNGCU>0607</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Bạch Nga</HOTENDUNGCU>
+    <TUOINAM>020TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15588345</MABN>
+    <HOTEN>NGUYỄN THANH HIỀN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P03010</MAPT>
+    <PPTHUCTE>Nhồi máu não</PPTHUCTE>
+    <GHICHU>lấy u não đính chẩm </GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 16:08</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 16:08</GIOKETTHUC>
+    <PTV>0392</PTV>
+    <HOTENPTV>Nguyễn Văn Tuấn</HOTENPTV>
+    <PHU1>0431</PHU1>
+    <HOTENPHU1>Lê Điền Sơn</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>1936</KTVGAYME>
+    <HOTENKTVGAYME>Vũ Trần Quốc Nhật</HOTENKTVGAYME>
+    <HOISUC>0628</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Biên</HOTENHOISUC>
+    <DUNGCU>0607</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Bạch Nga</HOTENDUNGCU>
+    <TUOINAM>029TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589290</MABN>
+    <HOTEN>NGUYỄN THỊ ANH LUYNH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P06224</MAPT>
+    <PPTHUCTE>Vỡ xương má và xương hàm</PPTHUCTE>
+    <GHICHU>Phẫu thuật kết hợp xương XHT- GM bằng nẹp vít</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 08:34</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 08:34</GIOKETTHUC>
+    <PTV>0564</PTV>
+    <HOTENPTV>Trần Xuân Thông</HOTENPTV>
+    <PHU1>0571</PHU1>
+    <HOTENPHU1>Dương Anh Thư</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>1936</KTVGAYME>
+    <HOTENKTVGAYME>Vũ Trần Quốc Nhật</HOTENKTVGAYME>
+    <HOISUC>1691</HOISUC>
+    <HOTENHOISUC>Phan Quốc Dương</HOTENHOISUC>
+    <DUNGCU>0607</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Bạch Nga</HOTENDUNGCU>
+    <TUOINU>046TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>09000352</MABN>
+    <HOTEN>NGUYỄN THỊ HỒNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18540</MAPT>
+    <PPTHUCTE>Đục thủy tinh thể người già</PPTHUCTE>
+    <GHICHU>Phaco+IOL mắt (T)</GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 11:43</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:43</GIOKETTHUC>
+    <PTV>1893</PTV>
+    <HOTENPTV>Bùi Trung Dũng</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0561</HOISUC>
+    <HOTENHOISUC>Hoàng Kim Hoàng</HOTENHOISUC>
+    <DUNGCU>0633</DUNGCU>
+    <HOTENDUNGCU>Tăng Tiến</HOTENDUNGCU>
+    <TUOINU>060TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>08002155</MABN>
+    <HOTEN>NGUYỄN THỊ KIM THOA</HOTEN>
+    <TENKP>Pk Vật Lý Trị Liệu</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>T13022</MAPT>
+    <PPTHUCTE>Thoái Hóa Cột Sống Cổ</PPTHUCTE>
+    <PPVC>Gây Mê Tĩnh Mạch</PPVC>
+    <GIOBATDAU>29/07/2015 14:10</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:10</GIOKETTHUC>
+    <TUOINU>063TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15138318</MABN>
+    <HOTEN>NGUYỄN THỊ LAN HƯƠNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19299</MAPT>
+    <PPTHUCTE>Sai khớp mỏm cùng vai-đòn</PPTHUCTE>
+    <GHICHU>Nội soi khâu gân trên gai vai (T), giải ép mỏm cùng trên gai vai (T)</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 12:28</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 12:28</GIOKETTHUC>
+    <PTV>0731</PTV>
+    <HOTENPTV>Phạm Nguyễn Thanh Trung</HOTENPTV>
+    <PHU1>0686</PHU1>
+    <HOTENPHU1>Trần Văn Dương</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>0974</KTVGAYME>
+    <HOTENKTVGAYME>Huỳnh Thanh Phong</HOTENKTVGAYME>
+    <HOISUC>0616</HOISUC>
+    <HOTENHOISUC>Lê Phạm Uyên Kha</HOTENHOISUC>
+    <DUNGCU>0616</DUNGCU>
+    <HOTENDUNGCU>Lê Phạm Uyên Kha</HOTENDUNGCU>
+    <TUOINU>047TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589725</MABN>
+    <HOTEN>NGUYỄN THỊ MỚI</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P02050</MAPT>
+    <PPTHUCTE>Suy thận mạn</PPTHUCTE>
+    <GHICHU>Phẫu thuật FAV tay (t)</GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 15:27</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:27</GIOKETTHUC>
+    <PTV>1424</PTV>
+    <HOTENPTV>Trần Thanh Phong</HOTENPTV>
+    <PHU1>1971</PHU1>
+    <HOTENPHU1>Lê Hoàng Thịnh</HOTENPHU1>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>1625</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Khanh</HOTENKTVGAYME>
+    <HOISUC>0632</HOISUC>
+    <HOTENHOISUC>Trần Minh HảI</HOTENHOISUC>
+    <DUNGCU>0631</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Hoàng Sơn</HOTENDUNGCU>
+    <TUOINU>046TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589852</MABN>
+    <HOTEN>NGUYỄN THỊ NGỌC HƯƠNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P16027</MAPT>
+    <PPTHUCTE>Viêm ruột thừa cấp</PPTHUCTE>
+    <GHICHU>Cắt ruột thừa qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 00:30</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 00:30</GIOKETTHUC>
+    <PTV>1850</PTV>
+    <HOTENPTV>Bùi Minh Thanh</HOTENPTV>
+    <BSGAYME>0593</BSGAYME>
+    <HOTENBSGAYME>Huỳnh Hồ Hải</HOTENBSGAYME>
+    <KTVGAYME>2071</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thái Hiển</HOTENKTVGAYME>
+    <HOISUC>1210</HOISUC>
+    <HOTENHOISUC>Nguyễn Tấn Đức</HOTENHOISUC>
+    <DUNGCU>0630</DUNGCU>
+    <HOTENDUNGCU>Đinh Thị Ngọc</HOTENDUNGCU>
+    <TUOINU>026TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>12742876</MABN>
+    <HOTEN>NGUYỄN THỊ NGỌC THẢO</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19306</MAPT>
+    <PPTHUCTE>Lắp ráp và điều chỉnh các ngoại dụng cụ chỉnh hình</PPTHUCTE>
+    <GHICHU>RÚT ĐINH CHỐT XƯƠNG ĐÙI (P)</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 14:02</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:02</GIOKETTHUC>
+    <PTV>0696</PTV>
+    <HOTENPTV>Nguyễn Tôn Ngọc Huỳnh</HOTENPTV>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0665</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Thu Hương</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINU>020TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589472</MABN>
+    <HOTEN>NGUYỄN THỊ PHƯƠNG LÂM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P19461</MAPT>
+    <PPTHUCTE>Xoang hàm</PPTHUCTE>
+    <GHICHU>Phẫu thuật mũi xoang qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:36</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:36</GIOKETTHUC>
+    <PTV>0530</PTV>
+    <HOTENPTV>Vũ Hải Long</HOTENPTV>
+    <PHU1>0537</PHU1>
+    <HOTENPHU1>Nguyễn Thị Thu Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0634</DUNGCU>
+    <HOTENDUNGCU>Lý Trung Hiếu</HOTENDUNGCU>
+    <TUOINU>031TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15142369</MABN>
+    <HOTEN>NGUYỄN VĂN HẢI</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18064</MAPT>
+    <PPTHUCTE>Đứt dây chằng gân, không phân loại nơi khác</PPTHUCTE>
+    <GHICHU>Nội soi tái tạo dây chằng chéo trước gối (P)</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 09:25</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:25</GIOKETTHUC>
+    <PTV>0686</PTV>
+    <HOTENPTV>Trần Văn Dương</HOTENPTV>
+    <PHU1>0730</PHU1>
+    <HOTENPHU1>Ngô Thành Ý</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>0666</KTVGAYME>
+    <HOTENKTVGAYME>Huỳnh Thanh Phong</HOTENKTVGAYME>
+    <HOISUC>0616</HOISUC>
+    <HOTENHOISUC>Lê Phạm Uyên Kha</HOTENHOISUC>
+    <DUNGCU>0616</DUNGCU>
+    <HOTENDUNGCU>Lê Phạm Uyên Kha</HOTENDUNGCU>
+    <TUOINAM>037TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15015466</MABN>
+    <HOTEN>NGUYỄN VĂN HỲ</HOTEN>
+    <TENKP>Pk Vật Lý Trị Liệu</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>T13022</MAPT>
+    <PPTHUCTE>Đau dây thần kinh toạ</PPTHUCTE>
+    <PPVC>Gây Mê Tĩnh Mạch</PPVC>
+    <GIOBATDAU>29/07/2015 14:13</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:13</GIOKETTHUC>
+    <TUOINAM>057TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15132973</MABN>
+    <HOTEN>NGUYỄN VĂN PHƯỜNG</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P18054</MAPT>
+    <PPTHUCTE>Thoát vị đĩa đệm cột sống thắt lưng</PPTHUCTE>
+    <GHICHU>Pt lấy nhân đệm giải áp + làm cứng + đặt đĩa đệm nhân tạo C5C6- C6C7 (vi phẫu -c arm)</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:48</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:48</GIOKETTHUC>
+    <PTV>0388</PTV>
+    <HOTENPTV>Trần Thượng Văn</HOTENPTV>
+    <PHU1>0432</PHU1>
+    <HOTENPHU1>Huỳnh Xuân Điểm</HOTENPHU1>
+    <BSGAYME>1837</BSGAYME>
+    <HOTENBSGAYME>Phạm Trần Tâm - B4</HOTENBSGAYME>
+    <KTVGAYME>0644</KTVGAYME>
+    <HOTENKTVGAYME>Hồ Hùng Thái</HOTENKTVGAYME>
+    <HOISUC>0629</HOISUC>
+    <HOTENHOISUC>Nguyễn Thái Hùng</HOTENHOISUC>
+    <DUNGCU>0622</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Hải</HOTENDUNGCU>
+    <TUOINAM>065TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589289</MABN>
+    <HOTEN>NGUYỄN VĂN QUAN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18046</MAPT>
+    <PPTHUCTE>Sỏi mật</PPTHUCTE>
+    <GHICHU>Phẫu thuật cắt cơ Oddi và nong đường mật qua ERCP lấy sỏi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:16</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:16</GIOKETTHUC>
+    <PTV>0465</PTV>
+    <HOTENPTV>Nguyễn Thế Toàn</HOTENPTV>
+    <PHU1>1850</PHU1>
+    <HOTENPHU1>Bùi Minh Thanh</HOTENPHU1>
+    <BSGAYME>0589</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Long</HOTENBSGAYME>
+    <KTVGAYME>1917</KTVGAYME>
+    <HOTENKTVGAYME>Lê Thành Phú</HOTENKTVGAYME>
+    <HOISUC>0621</HOISUC>
+    <HOTENHOISUC>Đoàn Như Thiết</HOTENHOISUC>
+    <DUNGCU>0620</DUNGCU>
+    <HOTENDUNGCU>Đoàn Huệ Nam</HOTENDUNGCU>
+    <TUOINAM>073TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13201712</MABN>
+    <HOTEN>PHAN THỊ XUÂN DUNG</HOTEN>
+    <TENKP>Pk Vật Lý Trị Liệu</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>T13022</MAPT>
+    <PPTHUCTE>Thoái Hóa Cột Sống Cổ</PPTHUCTE>
+    <PPVC>Gây Mê Tĩnh Mạch</PPVC>
+    <GIOBATDAU>29/07/2015 14:16</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:16</GIOKETTHUC>
+    <TUOINU>068TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15143547</MABN>
+    <HOTEN>PHẠM SƠN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P01006</MAPT>
+    <PPTHUCTE>Bướu dạ dày</PPTHUCTE>
+    <GHICHU>Phẫu thuật cắt 2/3 dạ dày + kèm nạo vét hạch hệ thống </GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:05</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:05</GIOKETTHUC>
+    <PTV>1215</PTV>
+    <HOTENPTV>Nguyễn Ngọc Anh</HOTENPTV>
+    <PHU1>0470</PHU1>
+    <HOTENPHU1>Phan Lương Huy</HOTENPHU1>
+    <BSGAYME>1837</BSGAYME>
+    <HOTENBSGAYME>Phạm Trần Tâm - B4</HOTENBSGAYME>
+    <KTVGAYME>1914</KTVGAYME>
+    <HOTENKTVGAYME>Lê Hữu Dự</HOTENKTVGAYME>
+    <HOISUC>0613</HOISUC>
+    <HOTENHOISUC>Nguyễn Hoàng Minh</HOTENHOISUC>
+    <DUNGCU>0626</DUNGCU>
+    <HOTENDUNGCU>Lê Thị Anh Thư</HOTENDUNGCU>
+    <TUOINAM>046TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15081612</MABN>
+    <HOTEN>PHẠM THỊ TIẾN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18347</MAPT>
+    <PPTHUCTE>U Não</PPTHUCTE>
+    <GHICHU>nội soi phá sàn não thất III</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 13:03</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 13:03</GIOKETTHUC>
+    <PTV>0392</PTV>
+    <HOTENPTV>Nguyễn Văn Tuấn</HOTENPTV>
+    <PHU1>0431</PHU1>
+    <HOTENPHU1>Lê Điền Sơn</HOTENPHU1>
+    <BSGAYME>0598</BSGAYME>
+    <HOTENBSGAYME>Lê Thị Bích Trâm </HOTENBSGAYME>
+    <KTVGAYME>1936</KTVGAYME>
+    <HOTENKTVGAYME>Vũ Trần Quốc Nhật</HOTENKTVGAYME>
+    <HOISUC>0626</HOISUC>
+    <HOTENHOISUC>Lê Thị Anh Thư</HOTENHOISUC>
+    <DUNGCU>0607</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Bạch Nga</HOTENDUNGCU>
+    <TUOINU>027TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15590106</MABN>
+    <HOTEN>PHẠM VĂN CHỒN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P02074</MAPT>
+    <PPTHUCTE>Chảy máu dưới màng cứng</PPTHUCTE>
+    <GHICHU>phẫu thuật khoan sọ dẫn lưu máu tụ mãn DMC b/c (T)</GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 14:17</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:17</GIOKETTHUC>
+    <PTV>0395</PTV>
+    <HOTENPTV>Lê Nguyễn Duy Khương</HOTENPTV>
+    <BSGAYME>1837</BSGAYME>
+    <HOTENBSGAYME>Phạm Trần Tâm - B4</HOTENBSGAYME>
+    <KTVGAYME>1914</KTVGAYME>
+    <HOTENKTVGAYME>Lê Hữu Dự</HOTENKTVGAYME>
+    <HOISUC>0613</HOISUC>
+    <HOTENHOISUC>Nguyễn Hoàng Minh</HOTENHOISUC>
+    <DUNGCU>0792</DUNGCU>
+    <HOTENDUNGCU>Ngô Huy Dần</HOTENDUNGCU>
+    <TUOINAM>070TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15143294</MABN>
+    <HOTEN>THIỀU THỊ CHÂU</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18047</MAPT>
+    <PPTHUCTE>Sỏi túi mật có viêm túi mật cấp</PPTHUCTE>
+    <GHICHU>Phẩu thuật cắt túi mật qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 08:30</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 08:30</GIOKETTHUC>
+    <PTV>0467</PTV>
+    <HOTENPTV>Lê Trần Đức Tín</HOTENPTV>
+    <PHU1>1855</PHU1>
+    <HOTENPHU1>Nguyễn Đức Thọ</HOTENPHU1>
+    <PHU2>1677</PHU2>
+    <HOTENPHU2>Trần Thanh Hiền</HOTENPHU2>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1935</KTVGAYME>
+    <HOTENKTVGAYME>Bồ Thị Thương</HOTENKTVGAYME>
+    <HOISUC>0628</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Biên</HOTENHOISUC>
+    <DUNGCU>0635</DUNGCU>
+    <HOTENDUNGCU>Đỗ Tường Ngọc Diễm</HOTENDUNGCU>
+    <TUOINU>043TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589298</MABN>
+    <HOTEN>TRƯƠNG THẾ YÊN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P08060</MAPT>
+    <PPTHUCTE>Trĩ</PPTHUCTE>
+    <GHICHU> Phẩu thuật cắt trĩ theo phương pháp Stmark</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 15:03</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:03</GIOKETTHUC>
+    <PTV>1856</PTV>
+    <HOTENPTV>Đặng Khải Toàn</HOTENPTV>
+    <PHU1>1850</PHU1>
+    <HOTENPHU1>Bùi Minh Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1935</KTVGAYME>
+    <HOTENKTVGAYME>Bồ Thị Thương</HOTENKTVGAYME>
+    <HOISUC>0628</HOISUC>
+    <HOTENHOISUC>Nguyễn Thanh Biên</HOTENHOISUC>
+    <DUNGCU>0635</DUNGCU>
+    <HOTENDUNGCU>Đỗ Tường Ngọc Diễm</HOTENDUNGCU>
+    <TUOINAM>022TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13732797</MABN>
+    <HOTEN>TRƯƠNG THỊ TIẾN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18082</MAPT>
+    <PPTHUCTE>Đục thủy tinh thể người già</PPTHUCTE>
+    <GHICHU>Phaco+IOL mắt (P) </GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 12:50</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 12:50</GIOKETTHUC>
+    <PTV>1893</PTV>
+    <HOTENPTV>Bùi Trung Dũng</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0561</HOISUC>
+    <HOTENHOISUC>Hoàng Kim Hoàng</HOTENHOISUC>
+    <DUNGCU>0633</DUNGCU>
+    <HOTENDUNGCU>Tăng Tiến</HOTENDUNGCU>
+    <TUOINU>062TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15582084</MABN>
+    <HOTEN>TRƯƠNG VĂN NAM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18046</MAPT>
+    <PPTHUCTE>Đường mật, không xác định</PPTHUCTE>
+    <GHICHU>Phẫu thuật cắt cơ Oddi và nong đường mật qua ERCP + ĐẶT STENT</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 10:23</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 10:23</GIOKETTHUC>
+    <PTV>0467</PTV>
+    <HOTENPTV>Lê Trần Đức Tín</HOTENPTV>
+    <PHU1>1850</PHU1>
+    <HOTENPHU1>Bùi Minh Thanh</HOTENPHU1>
+    <BSGAYME>0589</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Long</HOTENBSGAYME>
+    <KTVGAYME>1917</KTVGAYME>
+    <HOTENKTVGAYME>Lê Thành Phú</HOTENKTVGAYME>
+    <HOISUC>0621</HOISUC>
+    <HOTENHOISUC>Đoàn Như Thiết</HOTENHOISUC>
+    <DUNGCU>0620</DUNGCU>
+    <HOTENDUNGCU>Đoàn Huệ Nam</HOTENDUNGCU>
+    <TUOINAM>081TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13744057</MABN>
+    <HOTEN>TRẦN CÔNG ANH QUỐC</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19306</MAPT>
+    <PPTHUCTE>Đau cẳng tay trái</PPTHUCTE>
+    <GHICHU>Rút nẹp vis chốt cẳng tay (T)</GHICHU>
+    <PPVC>Tê Tùng Nách</PPVC>
+    <GIOBATDAU>29/07/2015 13:25</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 13:25</GIOKETTHUC>
+    <PTV>0685</PTV>
+    <HOTENPTV>Nguyễn Hữu Tâm</HOTENPTV>
+    <BSGAYME>0590</BSGAYME>
+    <HOTENBSGAYME>Phan Thanh Tươi</HOTENBSGAYME>
+    <KTVGAYME>0637</KTVGAYME>
+    <HOTENKTVGAYME>Phạm Thị Yến</HOTENKTVGAYME>
+    <HOISUC>0611</HOISUC>
+    <HOTENHOISUC>Nguyễn Văn Bảo</HOTENHOISUC>
+    <DUNGCU>0601</DUNGCU>
+    <HOTENDUNGCU>Lê Hà Thảo My</HOTENDUNGCU>
+    <TUOINAM>032TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15588991</MABN>
+    <HOTEN>TRẦN HỮU THIỆN</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19323</MAPT>
+    <PPTHUCTE>Đa chấn thương</PPTHUCTE>
+    <GHICHU>pt đóng đinh nội tủy xương đùi kín có chốt dưới màn hình tăng sáng</GHICHU>
+    <PPVC>Giảm đau ngoài màng cứng</PPVC>
+    <GIOBATDAU>29/07/2015 15:01</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:01</GIOKETTHUC>
+    <PTV>0695</PTV>
+    <HOTENPTV>Nguyễn Cao Viễn</HOTENPTV>
+    <PHU1>1739</PHU1>
+    <HOTENPHU1>Trương Văn Tài</HOTENPHU1>
+    <BSGAYME>0589</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Long</HOTENBSGAYME>
+    <KTVGAYME>1917</KTVGAYME>
+    <HOTENKTVGAYME>Lê Thành Phú</HOTENKTVGAYME>
+    <HOISUC>0621</HOISUC>
+    <HOTENHOISUC>Đoàn Như Thiết</HOTENHOISUC>
+    <DUNGCU>0620</DUNGCU>
+    <HOTENDUNGCU>Đoàn Huệ Nam</HOTENDUNGCU>
+    <TUOINAM>051TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15144129</MABN>
+    <HOTEN>TRẦN THỊ KIM THỦY</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P13015</MAPT>
+    <PPTHUCTE>Thoát vị đĩa đệm cột sống thắt lưng</PPTHUCTE>
+    <GHICHU>Phẫu thuật làm cứng l4-l5 ,đặt đĩa đệm + giải ép l4-l5</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 14:34</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:34</GIOKETTHUC>
+    <PTV>0388</PTV>
+    <HOTENPTV>Trần Thượng Văn</HOTENPTV>
+    <PHU1>0432</PHU1>
+    <HOTENPHU1>Huỳnh Xuân Điểm</HOTENPHU1>
+    <BSGAYME>0589</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Long</HOTENBSGAYME>
+    <KTVGAYME>2004</KTVGAYME>
+    <HOTENKTVGAYME>Võ Trường Quang Huy</HOTENKTVGAYME>
+    <HOISUC>0621</HOISUC>
+    <HOTENHOISUC>Đoàn Như Thiết</HOTENHOISUC>
+    <DUNGCU>0620</DUNGCU>
+    <HOTENDUNGCU>Đoàn Huệ Nam</HOTENDUNGCU>
+    <TUOINU>051TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15140373</MABN>
+    <HOTEN>TĂNG MINH TÂM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P13015</MAPT>
+    <PPTHUCTE>Thoát vị đĩa đệm cột sống thắt lưng</PPTHUCTE>
+    <GHICHU>Phẫu thuật làm cứng l4-l5 + giải ép l4-l5</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 09:30</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 09:30</GIOKETTHUC>
+    <PTV>0392</PTV>
+    <HOTENPTV>Nguyễn Văn Tuấn</HOTENPTV>
+    <PHU1>1639</PHU1>
+    <HOTENPHU1>Nguyễn Sĩ Bảo</HOTENPHU1>
+    <BSGAYME>0589</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Long</HOTENBSGAYME>
+    <KTVGAYME>2004</KTVGAYME>
+    <HOTENKTVGAYME>Võ Trường Quang Huy</HOTENKTVGAYME>
+    <HOISUC>0621</HOISUC>
+    <HOTENHOISUC>Đoàn Như Thiết</HOTENHOISUC>
+    <DUNGCU>0620</DUNGCU>
+    <HOTENDUNGCU>Đoàn Huệ Nam</HOTENDUNGCU>
+    <TUOINAM>036TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>08004120</MABN>
+    <HOTEN>TĂNG THỊ ÁNH NGUYỆT</HOTEN>
+    <TENKP>Pk Vật Lý Trị Liệu</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>T13022</MAPT>
+    <PPTHUCTE>Hội chứng vai gáy</PPTHUCTE>
+    <PPVC>Gây Mê Tĩnh Mạch</PPVC>
+    <GIOBATDAU>29/07/2015 14:12</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:12</GIOKETTHUC>
+    <TUOINU>051TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15139216</MABN>
+    <HOTEN>VÕ THỊ THU THANH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>T18413</MAPT>
+    <PPTHUCTE>Amiđan</PPTHUCTE>
+    <GHICHU>Cắt amidan</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 15:24</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 15:24</GIOKETTHUC>
+    <PTV>0533</PTV>
+    <HOTENPTV>Huỳnh Thanh</HOTENPTV>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0628</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Thanh Biên</HOTENDUNGCU>
+    <TUOINU>027TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15588390</MABN>
+    <HOTEN>VÕ VĂN HOÀI NAM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>1</CAPCUU>
+    <CHUDONG>0</CHUDONG>
+    <MAPT>P19461</MAPT>
+    <PPTHUCTE>vỡ xoang hàm</PPTHUCTE>
+    <GHICHU>Phẫu thuật mũi xoang qua nội soi</GHICHU>
+    <PPVC>Gây mê nội khí quản</PPVC>
+    <GIOBATDAU>29/07/2015 11:01</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:01</GIOKETTHUC>
+    <PTV>0530</PTV>
+    <HOTENPTV>Vũ Hải Long</HOTENPTV>
+    <PHU1>0537</PHU1>
+    <HOTENPHU1>Nguyễn Thị Thu Thanh</HOTENPHU1>
+    <BSGAYME>0591</BSGAYME>
+    <HOTENBSGAYME>Trần Thanh Tùng</HOTENBSGAYME>
+    <KTVGAYME>1997</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Cẩm Tú - B4</HOTENKTVGAYME>
+    <HOISUC>0634</HOISUC>
+    <HOTENHOISUC>Lý Trung Hiếu</HOTENHOISUC>
+    <DUNGCU>0634</DUNGCU>
+    <HOTENDUNGCU>Lý Trung Hiếu</HOTENDUNGCU>
+    <TUOINAM>043TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13221102</MABN>
+    <HOTEN>VÕ VĂN THÊ</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P19532</MAPT>
+    <PPTHUCTE>Sỏi bàng quang</PPTHUCTE>
+    <GHICHU>PT tán sỏi bàng quang</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 13:01</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 13:01</GIOKETTHUC>
+    <PTV>1429</PTV>
+    <HOTENPTV>Trương Sĩ Vinh</HOTENPTV>
+    <PHU1>2035</PHU1>
+    <HOTENPHU1>Bùi Duy Luật</HOTENPHU1>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>0612</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Ghên</HOTENKTVGAYME>
+    <HOISUC>1443</HOISUC>
+    <HOTENHOISUC>Trần Phúc Hòa</HOTENHOISUC>
+    <DUNGCU>0671</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Yến</HOTENDUNGCU>
+    <TUOINAM>071TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>13221102</MABN>
+    <HOTEN>VÕ VĂN THÊ</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P10180</MAPT>
+    <PPTHUCTE>Sỏi bàng quang</PPTHUCTE>
+    <GHICHU>PT cắt đốt nội soi tuyến tiền liệt</GHICHU>
+    <PPVC>Gây tê tủy sống</PPVC>
+    <GIOBATDAU>29/07/2015 13:11</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 13:11</GIOKETTHUC>
+    <PTV>1429</PTV>
+    <HOTENPTV>Trương Sĩ Vinh</HOTENPTV>
+    <PHU1>2035</PHU1>
+    <HOTENPHU1>Bùi Duy Luật</HOTENPHU1>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>0612</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Ghên</HOTENKTVGAYME>
+    <HOISUC>1443</HOISUC>
+    <HOTENHOISUC>Trần Phúc Hòa</HOTENHOISUC>
+    <DUNGCU>0671</DUNGCU>
+    <HOTENDUNGCU>Hoàng Thị Yến</HOTENDUNGCU>
+    <TUOINAM>071TU</TUOINAM>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15144606</MABN>
+    <HOTEN>VƯƠNG LỆ KÍNH</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18301</MAPT>
+    <PPTHUCTE>Suy thận mạn</PPTHUCTE>
+    <GHICHU>Phẫu thuật FAV tay (t)</GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 14:06</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 14:06</GIOKETTHUC>
+    <PTV>1424</PTV>
+    <HOTENPTV>Trần Thanh Phong</HOTENPTV>
+    <PHU1>1971</PHU1>
+    <HOTENPHU1>Lê Hoàng Thịnh</HOTENPHU1>
+    <BSGAYME>1620</BSGAYME>
+    <HOTENBSGAYME>Châu Thị Mỹ An</HOTENBSGAYME>
+    <KTVGAYME>1625</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Văn Khanh</HOTENKTVGAYME>
+    <HOISUC>0632</HOISUC>
+    <HOTENHOISUC>Trần Minh HảI</HOTENHOISUC>
+    <DUNGCU>0631</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Hoàng Sơn</HOTENDUNGCU>
+    <TUOINU>077TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>15589745</MABN>
+    <HOTEN>ĐÀO THÚC KHÁNG</HOTEN>
+    <TENKP>B7- Khoa Phẫu Thuật Tim Hở - Lồng Ngực Mạch Máu </TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P02165</MAPT>
+    <PPTHUCTE>Dãn tĩnh mạch chi dưới</PPTHUCTE>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 10:02</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 10:02</GIOKETTHUC>
+    <PTV>0516</PTV>
+    <HOTENPTV>Dương Văn Mười Một</HOTENPTV>
+    <PHU1>0516</PHU1>
+    <HOTENPHU1>Dương Văn Mười Một</HOTENPHU1>
+    <PHU2>0511</PHU2>
+    <HOTENPHU2>Hồ Thanh Phong</HOTENPHU2>
+    <HOISUC>0526</HOISUC>
+    <HOTENHOISUC>Nguyễn Thị Ngọc Hương</HOTENHOISUC>
+    <DUNGCU>0526</DUNGCU>
+    <HOTENDUNGCU>Nguyễn Thị Ngọc Hương</HOTENDUNGCU>
+    <TUOINAM>062TU</TUOINAM>
+    <TENPHONGMO>Phòng Mổ B7</TENPHONGMO>
+  </Table>
+  <Table>
+    <MABN>14136574</MABN>
+    <HOTEN>ĐẶNG THỊ NĂM</HOTEN>
+    <TENKP>B4m- Phòng Mổ - HS Ngoại (GMHS)    -       PM-GMHS</TENKP>
+    <CAPCUU>0</CAPCUU>
+    <CHUDONG>1</CHUDONG>
+    <MAPT>P18540</MAPT>
+    <PPTHUCTE>Đục thủy tinh thể người già</PPTHUCTE>
+    <GHICHU>Phaco+IOL mắt (T) </GHICHU>
+    <PPVC>Tê Tại Chổ</PPVC>
+    <GIOBATDAU>29/07/2015 11:38</GIOBATDAU>
+    <GIOKETTHUC>29/07/2015 11:38</GIOKETTHUC>
+    <PTV>1893</PTV>
+    <HOTENPTV>Bùi Trung Dũng</HOTENPTV>
+    <BSGAYME>0587</BSGAYME>
+    <HOTENBSGAYME>Lưu Kính Khương</HOTENBSGAYME>
+    <KTVGAYME>1627</KTVGAYME>
+    <HOTENKTVGAYME>Nguyễn Thị Ngọc - B4</HOTENKTVGAYME>
+    <HOISUC>0561</HOISUC>
+    <HOTENHOISUC>Hoàng Kim Hoàng</HOTENHOISUC>
+    <DUNGCU>0633</DUNGCU>
+    <HOTENDUNGCU>Tăng Tiến</HOTENDUNGCU>
+    <TUOINU>095TU</TUOINU>
+    <TENPHONGMO>Phòng Mỗ 1</TENPHONGMO>
+  </Table>
+</NewDataSet>

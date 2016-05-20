@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <r1>8</r1>
+    <g1>63</g1>
+    <b1>105</b1>
+    <r2>144</r2>
+    <g2>216</g2>
+    <b2>235</b2>
+    <r3>246</r3>
+    <g3>0</g3>
+    <b3>0</b3>
+    <r4>246</r4>
+    <g4>0</g4>
+    <b4>0</b4>
+    <x>100</x>
+    <y>0</y>
+    <w>800</w>
+    <h>600</h>
+    <s>72</s>
+    <s2>32</s2>
+    <s3>48</s3>
+    <s4>72</s4>
+    <nd3>MỜI SỐ THỨ TỰ</nd3>
+    <nd4>VÀO QUẦY ĐĂNG KÝ KHÁM</nd4>
+    <delay>40</delay>
+  </Row>
+</Import>

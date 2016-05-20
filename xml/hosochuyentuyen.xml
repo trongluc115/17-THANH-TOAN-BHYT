@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table" msprop:BaseTable.0="HOSOCHUYENTUYEN" msprop:BaseSchema="BV115MOI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_HSCHUYENTUYEN" msprop:OraDbType="107" msprop:BaseColumn="ID_HSCHUYENTUYEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCHUYEN" msprop:OraDbType="126" msprop:BaseColumn="SOCHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOSOCHUYEN" msprop:OraDbType="126" msprop:BaseColumn="SOSOCHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" msprop:OraDbType="126" msprop:BaseColumn="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENBN" msprop:OraDbType="119" msprop:BaseColumn="HOTENBN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" msprop:OraDbType="111" msprop:BaseColumn="NAMSINH" type="xs:short" minOccurs="0" />
+                <xs:element name="TUOIVAO" msprop:OraDbType="126" msprop:BaseColumn="TUOIVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" msprop:OraDbType="111" msprop:BaseColumn="PHAI" type="xs:short" minOccurs="0" />
+                <xs:element name="MANGHENGHIEP" msprop:OraDbType="126" msprop:BaseColumn="MANGHENGHIEP" type="xs:string" minOccurs="0" />
+                <xs:element name="MADANTOC" msprop:OraDbType="126" msprop:BaseColumn="MADANTOC" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" msprop:OraDbType="119" msprop:BaseColumn="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" msprop:OraDbType="119" msprop:BaseColumn="NOILAMVIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" msprop:OraDbType="126" msprop:BaseColumn="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="TUNGAY" msprop:OraDbType="106" msprop:BaseColumn="TUNGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DENNGAY" msprop:OraDbType="106" msprop:BaseColumn="DENNGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOIDKKCBBANDAU" msprop:OraDbType="126" msprop:BaseColumn="NOIDKKCBBANDAU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" msprop:OraDbType="106" msprop:BaseColumn="NGAYVAO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAYRA" msprop:OraDbType="106" msprop:BaseColumn="NGAYRA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAKPRA" msprop:OraDbType="126" msprop:BaseColumn="MAKPRA" type="xs:string" minOccurs="0" />
+                <xs:element name="TUYENTRUOCCHUYENDEN" msprop:OraDbType="126" msprop:BaseColumn="TUYENTRUOCCHUYENDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DAUHIEULAMSANG" msprop:OraDbType="116" msprop:BaseColumn="DAUHIEULAMSANG" type="xs:string" minOccurs="0" />
+                <xs:element name="KQXETNGHIEM" msprop:OraDbType="116" msprop:BaseColumn="KQXETNGHIEM" type="xs:string" minOccurs="0" />
+                <xs:element name="PHUONGPHAPDIEUTRI" msprop:OraDbType="116" msprop:BaseColumn="PHUONGPHAPDIEUTRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD10" msprop:OraDbType="126" msprop:BaseColumn="MAICD10" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" msprop:OraDbType="119" msprop:BaseColumn="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAHINHTHUCCHUYEN" msprop:OraDbType="111" msprop:BaseColumn="MAHINHTHUCCHUYEN" type="xs:short" minOccurs="0" />
+                <xs:element name="MATINHTRANG" msprop:OraDbType="111" msprop:BaseColumn="MATINHTRANG" type="xs:short" minOccurs="0" />
+                <xs:element name="MAKETQUADT" msprop:OraDbType="111" msprop:BaseColumn="MAKETQUADT" type="xs:short" minOccurs="0" />
+                <xs:element name="MALYDOCHUYEN" msprop:OraDbType="111" msprop:BaseColumn="MALYDOCHUYEN" type="xs:short" minOccurs="0" />
+                <xs:element name="MACHUYENMONKT" msprop:OraDbType="111" msprop:BaseColumn="MACHUYENMONKT" type="xs:short" minOccurs="0" />
+                <xs:element name="HUONGBHYT" msprop:OraDbType="111" msprop:BaseColumn="HUONGBHYT" type="xs:short" minOccurs="0" />
+                <xs:element name="NGAYCHUYEN" msprop:OraDbType="106" msprop:BaseColumn="NGAYCHUYEN" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MABVCHUYENDEN" msprop:OraDbType="126" msprop:BaseColumn="MABVCHUYENDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="PHUONGTIEN" msprop:OraDbType="119" msprop:BaseColumn="PHUONGTIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNGUOIDUADI" msprop:OraDbType="119" msprop:BaseColumn="TENNGUOIDUADI" type="xs:string" minOccurs="0" />
+                <xs:element name="HUONGDIEUTRI" msprop:OraDbType="119" msprop:BaseColumn="HUONGDIEUTRI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_LOAICHUYEN" msprop:OraDbType="111" msprop:BaseColumn="ID_LOAICHUYEN" type="xs:short" minOccurs="0" />
+                <xs:element name="NGAYSINH" msprop:OraDbType="106" msprop:BaseColumn="NGAYSINH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAQL" msprop:OraDbType="107" msprop:BaseColumn="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAVAOVIEN" msprop:OraDbType="107" msprop:BaseColumn="MAVAOVIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAPHUONGXA" msprop:OraDbType="126" msprop:BaseColumn="MAPHUONGXA" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQU" msprop:OraDbType="126" msprop:BaseColumn="MAQU" type="xs:string" minOccurs="0" />
+                <xs:element name="MATT" msprop:OraDbType="126" msprop:BaseColumn="MATT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID_HSCHUYENTUYEN>1</ID_HSCHUYENTUYEN>
+    <SOCHUYEN>1</SOCHUYEN>
+    <SOSOCHUYEN>1</SOSOCHUYEN>
+    <MABN>15093737</MABN>
+    <HOTENBN>BN TEST</HOTENBN>
+    <NAMSINH>1989</NAMSINH>
+    <TUOIVAO>26 tuổi</TUOIVAO>
+    <PHAI>1</PHAI>
+    <MANGHENGHIEP>2</MANGHENGHIEP>
+    <MADANTOC>25</MADANTOC>
+    <DIACHI>Phường Tân Định,Quận 1,Tp.HCM</DIACHI>
+    <NOILAMVIEC>gggg</NOILAMVIEC>
+    <SOTHE>HC116565656222679024</SOTHE>
+    <TUNGAY>2015-01-01T00:00:00+07:00</TUNGAY>
+    <DENNGAY>2015-12-31T00:00:00+07:00</DENNGAY>
+    <NOIDKKCBBANDAU>79024</NOIDKKCBBANDAU>
+    <NGAYVAO>2015-07-14T23:19:00+07:00</NGAYVAO>
+    <MAKPRA>999</MAKPRA>
+    <TUYENTRUOCCHUYENDEN>79024</TUYENTRUOCCHUYENDEN>
+    <DAUHIEULAMSANG>NGFKDFGN
+</DAUHIEULAMSANG>
+    <KQXETNGHIEM>KHGHOP
+</KQXETNGHIEM>
+    <PHUONGPHAPDIEUTRI>LGHKJLH
+</PHUONGPHAPDIEUTRI>
+    <MAICD10>I10</MAICD10>
+    <CHANDOAN>Cao huyết áp vô căn (nguyên phát)</CHANDOAN>
+    <MAHINHTHUCCHUYEN>1</MAHINHTHUCCHUYEN>
+    <MATINHTRANG>1</MATINHTRANG>
+    <MAKETQUADT>1</MAKETQUADT>
+    <MALYDOCHUYEN>1</MALYDOCHUYEN>
+    <MACHUYENMONKT>1</MACHUYENMONKT>
+    <HUONGBHYT>1</HUONGBHYT>
+    <NGAYCHUYEN>2015-07-14T23:19:00+07:00</NGAYCHUYEN>
+    <MABVCHUYENDEN>79024</MABVCHUYENDEN>
+    <PHUONGTIEN>KFD</PHUONGTIEN>
+    <TENNGUOIDUADI>DFKO</TENNGUOIDUADI>
+    <HUONGDIEUTRI>LYPTY</HUONGDIEUTRI>
+    <ID_LOAICHUYEN>2</ID_LOAICHUYEN>
+    <NGAYSINH>1989-04-07T00:00:00+07:00</NGAYSINH>
+    <MAQL>1507142321095111237</MAQL>
+    <MAVAOVIEN>1507142321098691237</MAVAOVIEN>
+    <MAPHUONGXA>7010101</MAPHUONGXA>
+    <MAQU>70101</MAQU>
+    <MATT>701</MATT>
+  </Table>
+</NewDataSet>

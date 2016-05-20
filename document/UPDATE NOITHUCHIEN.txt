@@ -1,0 +1,11 @@
+select c.*,b.ten,a.* from bv115.CDHA_DVLL a
+join v_giavp b on a.mavp=b.id
+join bv115.cdha_nhom c on c.id_loai=b.id_loai
+where a.noithuchien is null and ngaythuchien is not null and C.nhom_cdha='XQ'
+UPDATE bv115.CDHA_DVLL SET NOITHUCHIEN=4 WHERE ID IN 
+(select A.ID from bv115.CDHA_DVLL a
+join v_giavp b on a.mavp=b.id
+join bv115.cdha_nhom c on c.id_loai=b.id_loai
+where a.noithuchien is null and ngaythuchien is not null and C.nhom_cdha='ST')
+SELECT * FROM BV115.DMNOITHUCHIEN
+COMMIT;

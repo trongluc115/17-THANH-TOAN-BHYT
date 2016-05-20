@@ -1,0 +1,3 @@
+select a.* from medibv115.cdha_dinhmuc_vattu a
+join cdha_kythuat b  on a.makt=b.id
+where b.idvp=30136

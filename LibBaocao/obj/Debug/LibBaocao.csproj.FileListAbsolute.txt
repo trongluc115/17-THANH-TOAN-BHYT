@@ -1,0 +1,11 @@
+D:\Report2009\LibBaocao\obj\Debug\ResolveAssemblyReference.cache
+D:\Report2009\LibBaocao\obj\Debug\LibBaocao.dll
+D:\Report2009\LibBaocao\bin\Debug\LibBaocao.dll
+D:\Report2009\LibBaocao\bin\Debug\LibBaocao.pdb
+D:\Report2009\LibBaocao\obj\Debug\LibBaocao.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\bin\Debug\LibBaocao.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\bin\Debug\LibBaocao.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\obj\Debug\LibBaocao.dll
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\obj\Debug\LibBaocao.pdb
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\obj\Debug\LibBaocao.csprojResolveAssemblyReference.cache
+D:\Driver E\Lap trinh\Lap trinh_test_khong xoa\17 THANH TOAN NOI TRU\LibBaocao\bin\Debug\Interop.Excel.dll

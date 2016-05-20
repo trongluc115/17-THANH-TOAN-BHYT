@@ -1,0 +1,69 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\bin\Debug\Update.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\bin\Debug\Update.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\Update.F_update.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\Update.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\Update.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Update\Update\obj\Debug\Update.pdb
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\ResolveAssemblyReference.cache
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\Update.frmUpdate.resources
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\Update.Properties.Resources.resources
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\Update.exe
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\Update.exe
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\Update.pdb
+C:\Linh\Medisoft2009_115\Update\Update\obj\Debug\Update.pdb
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibMedi.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibVienphi.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\Oracle.DataAccess.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\vnConvert.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibLicense.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\dichso.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibDuoc.dll
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibVienphi.pdb
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibMedi.pdb
+C:\Linh\Medisoft2009_115\Update\Update\bin\Debug\LibDuoc.pdb
+C:\Linh\Medisoft2009_115\Update\bin\Debug\Update.exe
+C:\Linh\Medisoft2009_115\Update\bin\Debug\Update.pdb
+C:\Linh\Medisoft2009_115\Update\bin\Debug\Oracle.DataAccess.dll
+C:\Linh\Medisoft2009_115\Update\obj\Debug\ResolveAssemblyReference.cache
+C:\Linh\Medisoft2009_115\Update\obj\Debug\Update.frmUpdate.resources
+C:\Linh\Medisoft2009_115\Update\obj\Debug\Update.Properties.Resources.resources
+C:\Linh\Medisoft2009_115\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+C:\Linh\Medisoft2009_115\Update\obj\Debug\Update.exe
+C:\Linh\Medisoft2009_115\Update\obj\Debug\Update.pdb
+E:\Linh\Medisoft2009_115\Update\bin\Debug\Update.exe
+E:\Linh\Medisoft2009_115\Update\bin\Debug\Update.pdb
+E:\Linh\Medisoft2009_115\Update\bin\Debug\Oracle.DataAccess.dll
+E:\Linh\Medisoft2009_115\Update\obj\Debug\ResolveAssemblyReference.cache
+E:\Linh\Medisoft2009_115\Update\obj\Debug\Update.frmUpdate.resources
+E:\Linh\Medisoft2009_115\Update\obj\Debug\Update.Properties.Resources.resources
+E:\Linh\Medisoft2009_115\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+E:\Linh\Medisoft2009_115\Update\obj\Debug\Update.exe
+E:\Linh\Medisoft2009_115\Update\obj\Debug\Update.pdb
+D:\linh\Medisoft2009_115\Update\bin\Debug\Update.exe
+D:\linh\Medisoft2009_115\Update\bin\Debug\Update.pdb
+D:\linh\Medisoft2009_115\Update\bin\Debug\Oracle.DataAccess.dll
+D:\linh\Medisoft2009_115\Update\obj\Debug\ResolveAssemblyReference.cache
+D:\linh\Medisoft2009_115\Update\obj\Debug\Update.frmUpdate.resources
+D:\linh\Medisoft2009_115\Update\obj\Debug\Update.Properties.Resources.resources
+D:\linh\Medisoft2009_115\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+D:\linh\Medisoft2009_115\Update\obj\Debug\Update.exe
+D:\linh\Medisoft2009_115\Update\obj\Debug\Update.pdb
+E:\khongxoa\Medisoft2009\Update\obj\Debug\ResolveAssemblyReference.cache
+E:\khongxoa\Medisoft2009\Update\obj\Debug\Update.frmUpdate.resources
+E:\khongxoa\Medisoft2009\Update\obj\Debug\Update.Properties.Resources.resources
+E:\khongxoa\Medisoft2009\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+E:\khongxoa\Medisoft2009\Update\obj\Debug\Update.exe
+E:\khongxoa\Medisoft2009\Update\bin\Debug\Update.exe
+E:\khongxoa\Medisoft2009\Update\bin\Debug\Update.pdb
+E:\khongxoa\Medisoft2009\Update\obj\Debug\Update.pdb
+E:\khongxoa\Medisoft2009\Medisoft2009\bin\Debug\Update.exe
+E:\khongxoa\Medisoft2009\Medisoft2009\bin\Debug\Update.pdb
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\ResolveAssemblyReference.cache
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\Update.frmUpdate.resources
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\Update.Properties.Resources.resources
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\Update.csproj.GenerateResource.Cache
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\Update.exe
+E:\khongxoa\Medisoft2009\Medisoft2009\obj\Debug\Update.pdb

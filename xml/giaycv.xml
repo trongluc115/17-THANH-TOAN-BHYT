@@ -1,0 +1,146 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_HSCHUYENTUYEN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCHUYEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SOSOCHUYEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTENBN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="TUOIVAO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="MANGHENGHIEP" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MADANTOC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TUNGAY" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DENNGAY" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NOIDKKCBBANDAU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAYRA" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAKPRA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TUYENTRUOCCHUYENDEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DAUHIEULAMSANG" msprop:OraDbType="116" type="xs:string" minOccurs="0" />
+                <xs:element name="KQXETNGHIEM" msprop:OraDbType="116" type="xs:string" minOccurs="0" />
+                <xs:element name="PHUONGPHAPDIEUTRI" msprop:OraDbType="116" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD10" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="MAHINHTHUCCHUYEN" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="MATINHTRANG" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="MAKETQUADT" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="MALYDOCHUYEN" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="MACHUYENMONKT" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="HUONGBHYT" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="NGAYCHUYEN" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MABVCHUYENDEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHUONGTIEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNGUOIDUADI" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="HUONGDIEUTRI" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_LOAICHUYEN" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="NGAYSINH" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAQL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAVAOVIEN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAPHUONGXA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MATT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQUOCGIA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAISOTCHUYENMON" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="CHANDOANKHACBIET" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="112" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAYUD" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAICD10CHUYENDENRAVIEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOANCHUYENDENRAVIEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKPCHOBNCHUYENDENRAVIEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKETQUADTCHUYENDENRV" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="CHUYENLAMCLS" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="GHICHU" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DANTOC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBVDKKCBBD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENTINHTRANGCHUYEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="BVTUYENTRUOCCHUYENDEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="BVCHUYENDI" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="QUOCTICH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="BHYTTUNGAY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BHYTDENNGAY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYCV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOANDAYDU" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID_HSCHUYENTUYEN>4465</ID_HSCHUYENTUYEN>
+    <SOCHUYEN>2232/2015/GCT</SOCHUYEN>
+    <SOSOCHUYEN>02/2015</SOSOCHUYEN>
+    <MABN>15601508</MABN>
+    <HOTENBN>NGUYỄN THỊ TỐT</HOTENBN>
+    <NAMSINH>1939</NAMSINH>
+    <TUOIVAO>76 tuổi</TUOIVAO>
+    <PHAI>0</PHAI>
+    <MANGHENGHIEP>13</MANGHENGHIEP>
+    <MADANTOC>25</MADANTOC>
+    <DIACHI>285/101/5,Phường 12,Quận 10,Tp.HCM</DIACHI>
+    <SOTHE>GD479120041382079002</SOTHE>
+    <TUNGAY>2015-08-01T00:00:00+07:00</TUNGAY>
+    <DENNGAY>2016-07-31T00:00:00+07:00</DENNGAY>
+    <NOIDKKCBBANDAU>79002</NOIDKKCBBANDAU>
+    <NGAYVAO>2015-09-03T10:10:00+07:00</NGAYVAO>
+    <NGAYRA>2015-09-07T15:26:00+07:00</NGAYRA>
+    <MAKPRA>012</MAKPRA>
+    <DAUHIEULAMSANG>Đau đầu
+Yếu 1/2 người trái</DAUHIEULAMSANG>
+    <KQXETNGHIEM>CTScan sọ não: theo dõi u não bán cầu phải</KQXETNGHIEM>
+    <MAICD10>C70.2</MAICD10>
+    <CHANDOAN>U Não</CHANDOAN>
+    <MAHINHTHUCCHUYEN>-1</MAHINHTHUCCHUYEN>
+    <MATINHTRANG>1</MATINHTRANG>
+    <MAKETQUADT>2</MAKETQUADT>
+    <MALYDOCHUYEN>2</MALYDOCHUYEN>
+    <MACHUYENMONKT>1</MACHUYENMONKT>
+    <HUONGBHYT>1</HUONGBHYT>
+    <NGAYCHUYEN>2015-09-07T15:26:00+07:00</NGAYCHUYEN>
+    <MABVCHUYENDEN>701.4.34</MABVCHUYENDEN>
+    <PHUONGTIEN>tự túc</PHUONGTIEN>
+    <HUONGDIEUTRI>chụp MRI sọ não có cản từ</HUONGDIEUTRI>
+    <ID_LOAICHUYEN>1</ID_LOAICHUYEN>
+    <MAQL>1509031302410761403</MAQL>
+    <MAVAOVIEN>1509031010570831864</MAVAOVIEN>
+    <MAPHUONGXA>7011923</MAPHUONGXA>
+    <MAQU>70119</MAQU>
+    <MATT>701</MATT>
+    <MAQUOCGIA>VN</MAQUOCGIA>
+    <SAISOTCHUYENMON>0</SAISOTCHUYENMON>
+    <CHANDOANKHACBIET>0</CHANDOANKHACBIET>
+    <USERID>2061</USERID>
+    <NGAYUD>2015-09-07T15:32:07+07:00</NGAYUD>
+    <MAKETQUADTCHUYENDENRV>0</MAKETQUADTCHUYENDENRV>
+    <CHUYENLAMCLS>0</CHUYENLAMCLS>
+    <TENNN>Già</TENNN>
+    <DANTOC>*Kinh</DANTOC>
+    <TENKP>B1a - Khoa Ngoại Thần kinh  - NgTK</TENKP>
+    <TENBVDKKCBBD>Pk Trung Tâm Y Khoa Kỳ Hòa</TENBVDKKCBBD>
+    <TENTINHTRANGCHUYEN>Không cấp cứu</TENTINHTRANGCHUYEN>
+    <BVCHUYENDI>Công ty TNHH Y Tế Hòa Hảo</BVCHUYENDI>
+    <QUOCTICH>VIET NAM</QUOCTICH>
+    <BHYTTUNGAY>01/08/2015</BHYTTUNGAY>
+    <BHYTDENNGAY>31/07/2016</BHYTDENNGAY>
+    <NGAYVV>03/09/2015 10:10</NGAYVV>
+    <NGAYRV>07/09/2015 15:26</NGAYRV>
+    <NGAYCV>07/09/2015 15:26</NGAYCV>
+    <CHANDOANDAYDU>C70.2-U Não</CHANDOANDAYDU>
+  </Table>
+</NewDataSet>

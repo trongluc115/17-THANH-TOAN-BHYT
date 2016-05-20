@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								 <xs:element name="id_benhvien" type="xs:int" minOccurs="0" />
+                <xs:element name="id_oid" type="xs:long" minOccurs="0" />
+                <xs:element name="mabenhnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:int" minOccurs="0" />
+                <xs:element name="phai" type="xs:int" minOccurs="0" />
+                <xs:element name="id_nghenghiep" type="xs:int" minOccurs="0" />
+                <xs:element name="id_dantoc" type="xs:int" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="noilamviec" type="xs:string" minOccurs="0" />
+                <xs:element name="masochuyentuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="thebhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="denngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="id_dkkcb" type="xs:int" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="giovao" type="xs:string" minOccurs="0" />
+                <xs:element name="giora" type="xs:string" minOccurs="0" />
+                <xs:element name="id_khoaphong" type="xs:int" minOccurs="0" />
+                <xs:element name="id_tuyentruoc" type="xs:int" minOccurs="0" />
+                <xs:element name="dauhieulamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="ketquacanlamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="phuongphap" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd10" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="id_hinhthucchuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_tinhtrangchuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_lydochuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="id_ketquadieutri" type="xs:int" minOccurs="0" />
+                <xs:element name="id_doituong" type="xs:int" minOccurs="0" />
+                <xs:element name="ngaychuyen" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="giochuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="id_benhvienchuyenden" type="xs:int" minOccurs="0" />
+                <xs:element name="phuongtienchuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="hotennguoidua" type="xs:string" minOccurs="0" />
+                <xs:element name="huongdieutri" type="xs:string" minOccurs="0" />
+		<xs:element name="public_tbd_hosochuyentuyen.mabenhnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaichuyen" type="xs:int" minOccurs="0" />
+                <xs:element name="maicd10_ra" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan_ra" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sothutu" type="xs:string" minOccurs="0" />
+                <xs:element name="saisotchuyenmon" type="xs:int" minOccurs="0" />
+                <xs:element name="khacbietchandoan" type="xs:int" minOccurs="0" />
+                <xs:element name="id_chuyenchuyenmonkythuat" type="xs:int" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+</NewDataSet>

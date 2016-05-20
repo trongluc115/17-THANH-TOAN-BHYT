@@ -1,0 +1,2662 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="thongtinchung" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="thongtinchung">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="soluong" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="NHOM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TINHTRANG" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="MATINHTRANG" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="KHOACHUYEN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYNHAPKHOA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NKTRONGNGAY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDPHONG" msprop:OraDbType="112" type="xs:int" minOccurs="0" />
+                <xs:element name="IDGIUONG" msprop:OraDbType="112" type="xs:int" minOccurs="0" />
+                <xs:element name="TENPHONGBV" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="TENGIUONGBV" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="STTPHONG" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STTGIUONG" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <thongtinchung>
+    <stt>1</stt>
+    <noidung>Vào viện</noidung>
+    <soluong>6</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>2</stt>
+    <noidung>Ra viện</noidung>
+    <soluong>2</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>3</stt>
+    <noidung>Chuyển viện</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>4</stt>
+    <noidung>Chuyển khoa</noidung>
+    <soluong>1</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>5</stt>
+    <noidung>Hiện còn</noidung>
+    <soluong>84</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>6</stt>
+    <noidung>Hiện còn nam</noidung>
+    <soluong>47</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>7</stt>
+    <noidung>Hiện còn nữ</noidung>
+    <soluong>37</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>8</stt>
+    <noidung>Bệnh điểm</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>9</stt>
+    <noidung>Bệnh điểm nam</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>10</stt>
+    <noidung>Bệnh điểm nữ</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>11</stt>
+    <noidung>Thở máy</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>12</stt>
+    <noidung>Máy thở trống</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>13</stt>
+    <noidung>Máy thở hỏng</noidung>
+    <soluong>0</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>14</stt>
+    <noidung>Giường trống</noidung>
+    <soluong>86</soluong>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>1</NHOM>
+    <MABN>09032127</MABN>
+    <HOTEN>TRẦN BÁ TÍNH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1948</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:46:00</NGAYNHAPKHOA>
+    <NKTRONGNGAY>1</NKTRONGNGAY>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>53</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>1</NHOM>
+    <MABN>15092093</MABN>
+    <HOTEN>HỒ NAM LONG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1935</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 08:45:00</NGAYNHAPKHOA>
+    <NKTRONGNGAY>1</NKTRONGNGAY>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>12</STTPHONG>
+    <STTGIUONG>53</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>1</NHOM>
+    <MABN>14020317</MABN>
+    <HOTEN>NGUYỄN THỊ CHÍN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1942</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:05:00</NGAYNHAPKHOA>
+    <NKTRONGNGAY>1</NKTRONGNGAY>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10734</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G1</TENGIUONGBV>
+    <STTPHONG>3</STTPHONG>
+    <STTGIUONG>17</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>1</NHOM>
+    <MABN>13761040</MABN>
+    <HOTEN>NGUYỄN VĂN TRỌNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1962</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:26:00</NGAYNHAPKHOA>
+    <NKTRONGNGAY>1</NKTRONGNGAY>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10735</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G2</TENGIUONGBV>
+    <STTPHONG>3</STTPHONG>
+    <STTGIUONG>18</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>1</NHOM>
+    <MABN>10124077</MABN>
+    <HOTEN>NGUYỄN THỊ TỈU</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 08:46:00</NGAYNHAPKHOA>
+    <NKTRONGNGAY>1</NKTRONGNGAY>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16955</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-06</TENGIUONGBV>
+    <STTPHONG>3</STTPHONG>
+    <STTGIUONG>26</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>10848555</MABN>
+    <HOTEN>NGUYỄN THỊ THIỂU</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1931</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 14:07:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15089831</MABN>
+    <HOTEN>HÀ THỊ NGA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1989</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 08:35:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>09032127</MABN>
+    <HOTEN>TRẦN BÁ TÍNH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1948</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:46:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15092093</MABN>
+    <HOTEN>HỒ NAM LONG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1935</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 08:45:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15089002</MABN>
+    <HOTEN>NGUYỄN VĂN TIẾT</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 09:33:00</NGAYNHAPKHOA>
+    <IDPHONG>411</IDPHONG>
+    <IDGIUONG>17277</IDGIUONG>
+    <TENPHONGBV>A1-B.008</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14074988</MABN>
+    <HOTEN>HUỲNH VĂN NĂM</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1957</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 09:16:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569574</MABN>
+    <HOTEN>TÔ THỊ TRƯA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 11:09:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15091885</MABN>
+    <HOTEN>ĐINH VĂN DƯƠNG MINH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1994</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 06:07:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>11742887</MABN>
+    <HOTEN>NGUYỄN THỊ BÉ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1936</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 17:42:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568265</MABN>
+    <HOTEN>LÊ TUẤN EM</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1993</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 09:48:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15567739</MABN>
+    <HOTEN>NGÔ THÀNH NAM </HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1963</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>19/05/2015 15:19:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16950</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-01</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15091387</MABN>
+    <HOTEN>TRẦN THỊ TIẾN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1967</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 08:25:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569679</MABN>
+    <HOTEN>TRƯƠNG THUẬN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1938</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 16:59:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15067057</MABN>
+    <HOTEN>NGUYỄN THỊ MEO</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1941</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 02:45:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15564312</MABN>
+    <HOTEN>NGUYỄN VĂN TUẤN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1970</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 12:08:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569176</MABN>
+    <HOTEN>NGUYỄN VĂN NHẠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1962</NAMSINH>
+    <KHOACHUYEN>031</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 10:13:00</NGAYNHAPKHOA>
+    <IDPHONG>188</IDPHONG>
+    <IDGIUONG>10773</IDGIUONG>
+    <TENPHONGBV>A1 -P10A</TENPHONGBV>
+    <TENGIUONGBV>A1-B.10-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>12779841</MABN>
+    <HOTEN>NGUYỄN THỊ LẠI</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1963</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 10:11:00</NGAYNHAPKHOA>
+    <IDPHONG>187</IDPHONG>
+    <IDGIUONG>10772</IDGIUONG>
+    <TENPHONGBV>A1-P10B</TENPHONGBV>
+    <TENGIUONGBV>A1-B.011-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16971</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>-16998</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>-16993</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-17004</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-C-BAO_PHÒNG</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16992</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G11</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16970</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G11</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>186</IDPHONG>
+    <IDGIUONG>10769</IDGIUONG>
+    <TENPHONGBV>A1-P9DV</TENPHONGBV>
+    <TENGIUONGBV>A1-B.009-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>177</IDPHONG>
+    <IDGIUONG>10730</IDGIUONG>
+    <TENPHONGBV>A1-HL</TENPHONGBV>
+    <TENGIUONGBV>A1-B005- B1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>-18378</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>phong test</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>185</IDPHONG>
+    <IDGIUONG>10764</IDGIUONG>
+    <TENPHONGBV>A1-P9</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>1</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14549794</MABN>
+    <HOTEN>THÁI VĂN THÂU</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1957</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 18:06:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16961</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569561</MABN>
+    <HOTEN>NGUYỄN THỊ HỒNG HẠNH</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1983</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 11:34:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16983</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16978</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G8</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569509</MABN>
+    <HOTEN>NGUYỄN HỮU PHƯỚC</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1981</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 09:04:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16959</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-10</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10726</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G09</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>10</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16979</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G9</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>11</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>10738</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.015-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>11</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10727</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G10</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>11</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16960</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-11</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>11</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16982</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>11</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>10741</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>12</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14020317</MABN>
+    <HOTEN>NGUYỄN THỊ CHÍN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1942</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:05:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10734</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>12</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10728</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G11</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>12</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>10739</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.015-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>12</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>10746</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.014-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>12</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>10740</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.015-BP</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>13761040</MABN>
+    <HOTEN>NGUYỄN VĂN TRỌNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1962</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 10:26:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10735</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568787</MABN>
+    <HOTEN>LÊ VĂN ƯƠNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1934</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 19:15:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10736</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>10747</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.014-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>10742</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10729</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G12</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>13</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>10748</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.014-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>14</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>10743</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>14</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>10749</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.014-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>15</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>10744</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>15</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15088747</MABN>
+    <HOTEN>DIỆP THANH PHONG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1965</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>19/05/2015 12:55:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>10737</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>15</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>10750</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.014-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>16</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>10745</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>16</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15561339</MABN>
+    <HOTEN>NGUYỄN NGỌC HOA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1944</NAMSINH>
+    <KHOACHUYEN>031</KHOACHUYEN>
+    <NGAYNHAPKHOA>15/05/2015 09:53:00</NGAYNHAPKHOA>
+    <IDPHONG>411</IDPHONG>
+    <IDGIUONG>17278</IDGIUONG>
+    <TENPHONGBV>A1-B.008</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15085358</MABN>
+    <HOTEN>NGUYỄN THỊ KHÂM</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 15:54:00</NGAYNHAPKHOA>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10754</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569828</MABN>
+    <HOTEN>NGUYỄN VĂN BUNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 06:10:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16951</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-02</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>12782533</MABN>
+    <HOTEN>NGUYỄN KHÁNH HIỆP</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1974</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 13:49:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16951</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-02</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>186</IDPHONG>
+    <IDGIUONG>10770</IDGIUONG>
+    <TENPHONGBV>A1-P9DV</TENPHONGBV>
+    <TENGIUONGBV>A1-B.009-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>177</IDPHONG>
+    <IDGIUONG>10731</IDGIUONG>
+    <TENPHONGBV>A1-HL</TENPHONGBV>
+    <TENGIUONGBV>A1-B006 - B1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16980</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G10</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16991</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G10</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>185</IDPHONG>
+    <IDGIUONG>10765</IDGIUONG>
+    <TENPHONGBV>A1-P9</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10718</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G01</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-17003</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-C-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>-16997</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16969</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G10</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>2</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568737</MABN>
+    <HOTEN>LÊ THỊ TẠI</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1958</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 19:15:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16952</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-03</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568074</MABN>
+    <HOTEN>HUỲNH THỊ CẨM SƠN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1954</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 14:39:00</NGAYNHAPKHOA>
+    <IDPHONG>411</IDPHONG>
+    <IDGIUONG>17279</IDGIUONG>
+    <TENPHONGBV>A1-B.008</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569799</MABN>
+    <HOTEN>PHẠM NGUYÊN QUÝ</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1958</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 23:49:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16952</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-03</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>185</IDPHONG>
+    <IDGIUONG>10766</IDGIUONG>
+    <TENPHONGBV>A1-P9</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>177</IDPHONG>
+    <IDGIUONG>10732</IDGIUONG>
+    <TENPHONGBV>A1-HL</TENPHONGBV>
+    <TENGIUONGBV>A1-B007- B1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>10759</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.012-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16981</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G11</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16990</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G9</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>186</IDPHONG>
+    <IDGIUONG>10771</IDGIUONG>
+    <TENPHONGBV>A1-P9DV</TENPHONGBV>
+    <TENGIUONGBV>A1-B.009-BP</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-17002</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-C-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>-16994</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16968</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G9</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10719</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G02</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>3</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568102</MABN>
+    <HOTEN>NGUYỄN THỊ SÁU</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1947</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 16:54:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16967</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G8</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15567906</MABN>
+    <HOTEN>NGUYỄN VĂN  BE</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1945</NAMSINH>
+    <KHOACHUYEN>011</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 20:21:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16967</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G8</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14512800</MABN>
+    <HOTEN>TRẦN THỊ MAI </HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1931</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>08/05/2015 11:09:00</NGAYNHAPKHOA>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10755</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15566323</MABN>
+    <HOTEN>TRẦN THỊ NHỎ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1951</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>14/05/2015 22:57:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16972</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15565829</MABN>
+    <HOTEN>VÕ CÔNG HẦU</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1952</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>13/05/2015 09:41:00</NGAYNHAPKHOA>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10755</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569406</MABN>
+    <HOTEN>SIY NHƠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1973</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 01:04:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16953</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-04</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569772</MABN>
+    <HOTEN>HUỲNH VĂN THUẬN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1928</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 22:36:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16953</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-04</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15057407</MABN>
+    <HOTEN>NGUYỄN THỊ MỸ ÁI</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1977</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 12:09:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16953</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-04</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10720</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G03</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>177</IDPHONG>
+    <IDGIUONG>10733</IDGIUONG>
+    <TENPHONGBV>A1-HL</TENPHONGBV>
+    <TENGIUONGBV>A1-B008 - B1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>185</IDPHONG>
+    <IDGIUONG>10767</IDGIUONG>
+    <TENPHONGBV>A1-P9</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-17001</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-B-BAO_PHÒNG</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>10760</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.012-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16989</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G8</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>4</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15560965</MABN>
+    <HOTEN>NGUYỄN THỊ KHOA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1949</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 22:41:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16954</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-05</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569804</MABN>
+    <HOTEN>LƯƠNG VIẾT KHANH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1934</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 03:15:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16954</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-05</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>10126859</MABN>
+    <HOTEN>THANG VỊ TOÀN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1934</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>18/05/2015 12:14:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16988</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>10860881</MABN>
+    <HOTEN>NGÔ ĐÌNH XINH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1934</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 16:59:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16988</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14168203</MABN>
+    <HOTEN>NGUYỄN THỊ MINH LÝ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1957</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>18/05/2015 10:26:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16966</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568848</MABN>
+    <HOTEN>HÀ CÔNG TUẤN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1965</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 21:21:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16954</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-05</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569830</MABN>
+    <HOTEN>NGUYỄN THỊ SÒ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1950</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 06:10:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16973</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15080253</MABN>
+    <HOTEN>LÊ THỊ CHẠY</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1946</NAMSINH>
+    <KHOACHUYEN>101</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 19:21:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16988</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14525595</MABN>
+    <HOTEN>HUỲNH TRUNG CHÁNH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1970</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 09:49:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16966</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569031</MABN>
+    <HOTEN>LÂM THỊ NHỎ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1962</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 19:04:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16988</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>185</IDPHONG>
+    <IDGIUONG>10768</IDGIUONG>
+    <TENPHONGBV>A1-P9</TENPHONGBV>
+    <TENGIUONGBV>A1-B.008-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>10761</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.012-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10756</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-17000</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-B-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10721</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G04</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>5</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>08017139</MABN>
+    <HOTEN>VÕ VĂN BÉ</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1935</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>13/05/2015 14:10:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16965</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15567611</MABN>
+    <HOTEN>NGUYỄN HÙNG SƠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1970</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>19/05/2015 00:17:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16955</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-06</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>11674111</MABN>
+    <HOTEN>SÂM VO</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1959</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>18/05/2015 00:52:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16965</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>10124077</MABN>
+    <HOTEN>NGUYỄN THỊ TỈU</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1937</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>26/05/2015 08:46:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16955</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-06</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568736</MABN>
+    <HOTEN>LÊ DUY HÙNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1966</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 16:35:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16974</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15084755</MABN>
+    <HOTEN>PHẠM QUANG ĐẠT</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1962</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>19/05/2015 09:02:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16965</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568226</MABN>
+    <HOTEN>LÊ HOÀNG SƠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1974</NAMSINH>
+    <KHOACHUYEN>031</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 09:35:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16987</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569243</MABN>
+    <HOTEN>NGUYỄN DUY NGÂN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1988</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 11:49:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16965</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569532</MABN>
+    <HOTEN>PHẠM VĂN DIỆP</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1955</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 10:18:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16955</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-06</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14549446</MABN>
+    <HOTEN>TÔ CHIÊU ÍCH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1939</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 10:39:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16965</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10722</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G05</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>-16999</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-B-G1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10757</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>10762</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.012-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>6</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>10088768</MABN>
+    <HOTEN>NGUYỄN THỊ NỞ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1957</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>22/05/2015 22:27:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16975</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15565326</MABN>
+    <HOTEN>NGUYỄN THỊ CHƯA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1929</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>11/05/2015 16:45:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16964</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569032</MABN>
+    <HOTEN>TRẦN PHƯƠNG NAM</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1971</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 14:35:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16956</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-07</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>11699440</MABN>
+    <HOTEN>NGUYỄN VĂN CÁ</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1949</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 20:08:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16975</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568508</MABN>
+    <HOTEN>ĐOÀN VĂN CHẮP</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1968</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 17:31:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16964</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14163756</MABN>
+    <HOTEN>NGUYỄN THỊ ANH</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1942</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>06/05/2015 12:08:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16975</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>11698306</MABN>
+    <HOTEN>LƯU VĂN TƯ</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1935</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 03:02:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16956</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-07</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>10751</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-GIƯỜNG 1</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>183</IDPHONG>
+    <IDGIUONG>10758</IDGIUONG>
+    <TENPHONGBV>A1-P7</TENPHONGBV>
+    <TENGIUONGBV>A1-B.007-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16986</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>184</IDPHONG>
+    <IDGIUONG>10763</IDGIUONG>
+    <TENPHONGBV>A1-P8</TENPHONGBV>
+    <TENGIUONGBV>A1-B.012-G5</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10723</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G06</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>7</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14039531</MABN>
+    <HOTEN>VÕ VĂN THÔNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1933</NAMSINH>
+    <KHOACHUYEN>005</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 16:06:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16963</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569640</MABN>
+    <HOTEN>PHẠM VĂN CHINH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1954</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 16:23:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16957</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-08</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568468</MABN>
+    <HOTEN>TRẦN THỊ KIM DUNG</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1940</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 15:54:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16985</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569682</MABN>
+    <HOTEN>NGUYỄN QUỐC TUẤN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1976</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 20:03:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16976</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>09046172</MABN>
+    <HOTEN>TRẦN THỊ LIÊN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1964</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>15/05/2015 09:28:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16963</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14530272</MABN>
+    <HOTEN>NGUYỄN THỊ TRÒN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1918</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>17/05/2015 20:56:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16957</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-08</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>14535544</MABN>
+    <HOTEN>DƯƠNG THÀNH VĂN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1965</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>19/05/2015 05:38:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16963</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>12700015</MABN>
+    <HOTEN>NGUYỄN HOÀNG SƠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1963</NAMSINH>
+    <KHOACHUYEN>031</KHOACHUYEN>
+    <NGAYNHAPKHOA>20/05/2015 10:04:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16963</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>12723265</MABN>
+    <HOTEN>NGUYỄN VĂN NHƠN</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1939</NAMSINH>
+    <KHOACHUYEN>063</KHOACHUYEN>
+    <NGAYNHAPKHOA>16/05/2015 19:16:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16976</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15559136</MABN>
+    <HOTEN>VÕ THỊ HUÊ</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1945</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 16:24:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16976</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G6</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569226</MABN>
+    <HOTEN>PHẠM TUẤN ANH</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1991</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 05:12:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16985</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G4</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>10752</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-GIƯỜNG 2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10724</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G07</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>8</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15092603</MABN>
+    <HOTEN>TĂNG THANH THÚY</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1981</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 14:41:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16977</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15568474</MABN>
+    <HOTEN>LƯU MỸ LAN</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1964</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>21/05/2015 16:22:00</NGAYNHAPKHOA>
+    <IDPHONG>181</IDPHONG>
+    <IDGIUONG>-16984</IDGIUONG>
+    <TENPHONGBV>A1-P6</TENPHONGBV>
+    <TENGIUONGBV>A1-B.006-G3</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>09756856</MABN>
+    <HOTEN>TRẦN THỊ KHÁNH TƯỜNG</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1970</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 09:07:00</NGAYNHAPKHOA>
+    <IDPHONG>179</IDPHONG>
+    <IDGIUONG>-16962</IDGIUONG>
+    <TENPHONGBV>A1-P4</TENPHONGBV>
+    <TENGIUONGBV>A1-B.004-G2</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>13054363</MABN>
+    <HOTEN>TRẦN MINH HÙNG</HOTEN>
+    <PHAI>Nam</PHAI>
+    <NAMSINH>1963</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 17:11:00</NGAYNHAPKHOA>
+    <IDPHONG>1</IDPHONG>
+    <IDGIUONG>10725</IDGIUONG>
+    <TENPHONGBV>A1-PCC</TENPHONGBV>
+    <TENGIUONGBV>B.004 - G08</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>08013678</MABN>
+    <HOTEN>HOÀNG THỊ MÙI</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1945</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>25/05/2015 10:19:00</NGAYNHAPKHOA>
+    <IDPHONG>178</IDPHONG>
+    <IDGIUONG>-16958</IDGIUONG>
+    <TENPHONGBV>A1-P3</TENPHONGBV>
+    <TENGIUONGBV>A1-B.003-09</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15564551</MABN>
+    <HOTEN>LÊ THỊ MỸ LINH</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1950</NAMSINH>
+    <KHOACHUYEN>063</KHOACHUYEN>
+    <NGAYNHAPKHOA>24/05/2015 11:07:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16977</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <MABN>15569143</MABN>
+    <HOTEN>PHẠM THỊ NGA</HOTEN>
+    <PHAI>Nữ</PHAI>
+    <NAMSINH>1964</NAMSINH>
+    <KHOACHUYEN>001</KHOACHUYEN>
+    <NGAYNHAPKHOA>23/05/2015 22:37:00</NGAYNHAPKHOA>
+    <IDPHONG>180</IDPHONG>
+    <IDGIUONG>-16977</IDGIUONG>
+    <TENPHONGBV>A1-P5</TENPHONGBV>
+    <TENGIUONGBV>A1-B.005-G7</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+  <thongtinchung>
+    <stt>0</stt>
+    <noidung />
+    <soluong>0</soluong>
+    <NHOM>3</NHOM>
+    <HOTEN>Còn trống</HOTEN>
+    <IDPHONG>182</IDPHONG>
+    <IDGIUONG>10753</IDGIUONG>
+    <TENPHONGBV>A1-P6DV</TENPHONGBV>
+    <TENGIUONGBV>A1-P6DV-BAO PHÒNG</TENGIUONGBV>
+    <STTPHONG>0</STTPHONG>
+    <STTGIUONG>9</STTGIUONG>
+  </thongtinchung>
+</NewDataSet>

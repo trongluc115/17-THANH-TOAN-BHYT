@@ -1,0 +1,40 @@
+D:\code115\Update\bin\Debug\Update.exe
+D:\code115\Update\bin\Debug\Update.pdb
+D:\code115\Update\obj\Debug\Update.csprojResolveAssemblyReference.cache
+D:\code115\Update\obj\Debug\Update.frmUpdate.resources
+D:\code115\Update\obj\Debug\Update.Properties.Resources.resources
+D:\code115\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+D:\code115\Update\obj\Debug\Update.exe
+D:\code115\Update\obj\Debug\Update.pdb
+D:\code115\Update\bin\Debug\DataOracle.dll
+D:\code115\Update\bin\Debug\LibBaocao.dll
+D:\code115\Update\bin\Debug\DataMySQL.dll
+D:\code115\Update\bin\Debug\Data.dll
+D:\code115\Update\bin\Debug\Entity.dll
+D:\code115\Update\bin\Debug\Oracle.DataAccess.dll
+D:\code115\Update\bin\Debug\Interop.Excel.dll
+D:\code115\Update\bin\Debug\MySql.Data.dll
+D:\code115\Update\bin\Debug\DataOracle.pdb
+D:\code115\Update\bin\Debug\LibBaocao.pdb
+D:\code115\Update\bin\Debug\DataMySQL.pdb
+D:\code115\Update\bin\Debug\Data.pdb
+D:\code115\Update\bin\Debug\Entity.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Update.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\obj\Debug\Update.frmUpdate.resources
+D:\code115\17 THANH TOAN NOI TRU\Update\obj\Debug\Update.Properties.Resources.resources
+D:\code115\17 THANH TOAN NOI TRU\Update\obj\Debug\Update.csproj.GenerateResource.Cache
+D:\code115\17 THANH TOAN NOI TRU\Update\obj\Debug\Update.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\DataOracle.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\LibBaocao.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\DataMySQL.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Data.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Entity.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Interop.Excel.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\MySql.Data.dll
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\DataOracle.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\LibBaocao.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\DataMySQL.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Data.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Entity.pdb
+D:\code115\17 THANH TOAN NOI TRU\Update\bin\Debug\Update.exe
+D:\code115\17 THANH TOAN NOI TRU\Update\obj\Debug\Update.exe
