@@ -11,7 +11,7 @@ namespace Entity
         private string hoten;
         private int namsinh;
         private int gioitinh;
-        private string diachi;
+        private string diachi="";
         private string dienthoai;
         #endregion
         #region thuoc tinh
