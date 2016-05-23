@@ -10,7 +10,7 @@ namespace Entity
         private string mabn;
         private string hoten;
         private int namsinh;
-        private int gioitinh;
+        private int gioitinh="";
         private string diachi="";
         private string dienthoai;
         #endregion
