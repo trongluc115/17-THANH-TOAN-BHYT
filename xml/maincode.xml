@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" standalone="yes"?>
 <Import>
   <Row>
-    <Con>Data Source=medisoft;user id=medibv115;password=33odjpir</Con>
+
     <Mabv>701.3.04</Mabv>
     <Tenbv>Bệnh Viện Nhân Dân 115</Tenbv>
     <Syte>Sở Y Tế Hồ Chí Minh</Syte>
